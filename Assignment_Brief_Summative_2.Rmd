@@ -1,0 +1,103 @@
+---
+title: 'Practical work BIO-5009A'
+author: 'Lecturer: Philip Leftwich'
+output: 
+  rmdformats::material
+  
+
+      
+ 
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(kableExtra)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Outline
+
+<iframe src="https://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+
+# 2. Laboratory Notebooks
+
+Keeping accurate lab notebooks is a vital skill for undergraduate students pursuing science, engineering, or any research-based field. These meticulously recorded records serve as a personal scientific diary, capturing every experiment, observation, and idea. Here's why it's so valuable:
+
+- **Documenting Progress**: Lab notebooks provide a chronological record of your work, enabling you to track the evolution of your projects. This helps in identifying trends, troubleshooting issues, and making informed decisions for future experiments.
+
+- Data Integrity: Accurate lab notebooks promote data integrity and transparency. They serve as evidence of your work's authenticity, which is essential for ethical research and collaboration.
+
+- **Troubleshooting and Analysis**: In the event of unexpected outcomes or errors, a well-maintained lab notebook can be a lifeline. It allows you to retrace your steps, pinpoint sources of error, and refine your methods for better results.
+
+- **Intellectual Property Protection**: For those working on innovative projects, lab notebooks can serve as crucial documentation for patents and intellectual property claims, safeguarding your ideas and innovations.
+
+- **Communication**: Lab notebooks are valuable for communicating your findings to peers, professors, or future employers. They provide a comprehensive account of your work, making it easier for others to understand and build upon your research.
+
+- **Enhanced Organizational Skills**: Maintaining an organized lab notebook cultivates discipline and organizational skills, which are transferable to other areas of academia and life.
+
+- **Professional Development**: Learning to keep a lab notebook teaches undergraduates essential skills in record-keeping, critical thinking, and attention to detail, all of which are highly regarded in professional and academic settings.
+
+In summary, accurate lab notebooks are more than just records; they are an essential tool for scientific and professional development. By cultivating this skill, undergraduate students not only enhance their academic experience but also prepare themselves for successful careers in research and beyond.
+
+
+
+
+# 3. General guide to the report
+
+
+# 4. R scripts
+
+
+
+# 5. Lab Notebook Requirements
+
+```{r Mark scheme, echo=FALSE}
+knitr::kable(rbind(
+                    c("","Title of experiment at the top of each section"),
+                    c("","Date of experiment"),
+                    c("","Objective/Aim of experiment given"),
+                    c("","Relevant citations or reading are included"),
+                    c("","Plan/outline is given"),
+                    c("","Step-by-step procedures are present, or clear reference to established protocols"),
+                    c("","Any deviations from established protocols are clearly detailed"),
+                    c("","Instruments, conditions, parameters & reagents are provided^1"),
+                    c("","Observations are recorded"),
+                    c("", "Unanticipated observations or conditions"),
+                    c("","Any samples generated are recorded as they are labelled"),
+                    c("","Wherever possible data is identified and included in the notebook"),
+                    c("","Where it is not possible to include data - names and file locations of data are included"),
+                    c("","Conclusions and suggestions for future work or next steps are included"),
+                    c("","Entries are written clearly and in full sentences"),
+                    c("","It is clear where one experiment ends and another begins"),
+                    c("","It is clear what is your work, class work or group work"),
+                    c("","Entries are complete"),
+                    c("","Names of people you worked with are included"),
+                    c("","Entries are clear and easy to read - headers, subheaders and sections are used"),
+                    c("","Electronic data is clearly organised using folders and subdirectories"),
+                    c("","Physical lab notebooks are signed and dated"),
+                    c("","Any abbreviations are defined"),
+                    c("","Links to analyses or *in silico* designs are referenced in the notebook"),
+                    c("","Any required analyses or predictions are included")
+                    ),
+             
+              caption = ' ',
+              col.names = c("Completed", "Description"),
+                           booktabs=T ) %>% 
+  kable_styling("striped", full_width=F) %>% 
+  group_rows(index=c("Experimental Records" = 14, "General Housekeeping" = 9, "Analyses" = 2)) %>% 
+  column_spec(2, bold=T) %>% 
+  footnote(general = "Examples of reagents and conditions ",
+           number = c("Centriguge settings, Incubator settings, Sizes and types of tubes, Buffers, Media, Concentrations, Volumes, Wash steps, PCR reagents, Primers")
+           )
+```
+
+
+
+# 6. Guidance
+
+
+
+
+
+
