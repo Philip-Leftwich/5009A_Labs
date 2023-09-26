@@ -17,10 +17,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # 1. Outline
 
-<iframe src="https://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+# 2. Labs and Computer Labs
+
+https://github.com/Philip-Leftwich/5009A_Labs/blob/master/Example-notebook.pdf
 
 
-# 2. Laboratory Notebooks
+
+# 3. Keeping a Laboratory Notebook
 
 Keeping accurate lab notebooks is a vital skill for undergraduate students pursuing science, engineering, or any research-based field. These meticulously recorded records serve as a personal scientific diary, capturing every experiment, observation, and idea. Here's why it's so valuable:
 
@@ -43,14 +47,7 @@ In summary, accurate lab notebooks are more than just records; they are an essen
 
 
 
-# 3. General guide to the report
-
-
-# 4. R scripts
-
-
-
-# 5. Lab Notebook Requirements
+# 4. Lab Notebook Requirements
 
 ```{r Mark scheme, echo=FALSE}
 knitr::kable(rbind(
@@ -92,9 +89,12 @@ knitr::kable(rbind(
            )
 ```
 
+# 5. Computer Lab - Session 1
 
+## Getting to grips with Electronic Lab Notebooks
 
-# 6. Guidance
+## Annotating a Plasmid
+
 
 
 
