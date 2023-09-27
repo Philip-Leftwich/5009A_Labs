@@ -269,7 +269,7 @@ This worksheet teaches you how to use Benchling to view and understand sequence 
 
 Annotation is simple and just requires a foundation on the types of DNA features that you might wish to label on your sequences. In this module, you will learn what some general features are such as promoters, mutations, primer binding sites or coding regions
 
-Copy the pRB318 plasmid into your own Project on Benchling so you can edit as you please. Afterwards, navigate to your Vector sequence and you will see there are three different ways to view this sequence:
+Copy the [pRB318 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb) into your own Project on Benchling so you can edit as you please. Afterwards, navigate to your Vector sequence and you will see there are three different ways to view this sequence:
 
 Sequence map
 
