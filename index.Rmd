@@ -323,3 +323,60 @@ https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-49
 ### Finished
 
 When you have finished these activities - drag and drop the pRB318 plasmid into your notebook and write a brief summary of what you did. 
+
+# 5. Computer Lab Session 2
+
+In today's session we will work to develop and improve our lab notes and make some computational analyses.
+
+## 1. Lab notes
+
+Review your lab notes made during your in-class practical sessions using the guides on keeping a laboratory notebook and the lab notebook checklist. 
+
+Transfer your paper notes to your electronic lab notebook, as you do so using the guides and checklists to guide the structure and clarity of your writing. 
+
+- What detail is missing from your lab notes that you realise you should have written down at the time
+
+- What parts of your notes are less than perfectly clear and can you improve this now?
+
+- Check your structure and content with your friends, ask your lecturer or demonstrator for feedback
+
+## 2. Add protocols to your entries
+
+You have been provided with links to examples of protocols on Benchling, you also have access to your lab protocols in your handbook. 
+
+- Attach [Protocol Entries](https://help.benchling.com/hc/en-us/articles/9684268242957-Create-and-attach-protocols-to-entries) using this guide retrieve the protocol pdfs from Blackboard and attach them as entries to your lab notes in the appropriate sections.
+
+## Designing primers
+
+In our practical sessions we carried out a bacterial transformation to introduce the pRB318 plasmid into our cells. Using an Ampicillin selection plate we should be able to recover colonies that are Ampicillin resistant thanks to the AmpR gene on the plasmid. In order to confirm successful transformation we will carry out a [colony PCR](https://pubmed.ncbi.nlm.nih.gov/24011056/#:~:text=Colony%20PCR%20is%20a%20method,a%20portion%20of%20the%20construct.) to confirm the presence of plasmid DNA in our cells. 
+
+In this pRB318 template, you will see that there are two pre-designed primers attached to the template sequence (AmpR and AmpF). Find these annotations and note the following properties for each:
+
+- Length
+
+- GC content
+
+- Melting temperature
+
+Some guidelines for designing PCR primers include:
+
+- Length of 18-24 bases (Specificity usually is dependent on the length and annealing temperature. The shorter the primers are, the more efficiently they will bind or anneal to the target.)
+
+- 40-60% G/C content (Be mindful not to have too many repeating G or C bases, as this can promote primer-dimer formation.)
+
+- Start and end with 1-2 G/C pairs (This is known as a GC Clamp).
+
+- Melting temperature (Tm) of 50-60°C (This can depend on your PCR buffer conditions and DNA polymerase as well).
+
+- Primer pairs should have a Tm within 5°C of each other
+
+- Primer pairs should not have complementary regions
+
+Question(s)
+
+How many of these guidelines does the AmpR primer pair meet?
+
+What is the expected size (in bp) of the PCR amplicon that would be generated when using these primers?
+
+
+Make sure this information is in your lab notebook. 
