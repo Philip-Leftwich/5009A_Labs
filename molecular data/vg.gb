@@ -1,0 +1,1528 @@
+LOCUS       NT_033778              30372 bp    DNA     linear   CON 15-NOV-2022
+DEFINITION  Drosophila melanogaster chromosome 2R.
+ACCESSION   NT_033778 REGION: 12876607..12906978
+VERSION     NT_033778.4  GI:671162315
+DBLINK      BioProject: PRJNA164
+            BioSample: SAMN02803731
+            Assembly: GCF_000001215.4
+KEYWORDS    RefSeq.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 30372)
+  AUTHORS   Matthews,B.B., Dos Santos,G., Crosby,M.A., Emmert,D.B., St
+            Pierre,S.E., Gramates,L.S., Zhou,P., Schroeder,A.J., Falls,K.,
+            Strelets,V., Russo,S.M. and Gelbart,W.M.
+  CONSRTM   FlyBase Consortium
+  TITLE     Gene Model Annotations for Drosophila melanogaster: Impact of
+            High-Throughput Data
+  JOURNAL   G3 (Bethesda) 5 (8), 1721-1736 (2015)
+   PUBMED   26109357
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 30372)
+  AUTHORS   Crosby,M.A., Gramates,L.S., Dos Santos,G., Matthews,B.B., St
+            Pierre,S.E., Zhou,P., Schroeder,A.J., Falls,K., Emmert,D.B.,
+            Russo,S.M. and Gelbart,W.M.
+  CONSRTM   FlyBase Consortium
+  TITLE     Gene Model Annotations for Drosophila melanogaster: The
+            Rule-Benders
+  JOURNAL   G3 (Bethesda) 5 (8), 1737-1749 (2015)
+   PUBMED   26109356
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 30372)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Wan,K.H., Park,S., Mendez,I.,
+            Galle,S.E., Booth,B.W., Pfeiffer,B.D., George,R.A., Svirskas,R.,
+            Krzywinski,M., Schein,J., Accardo,M.C., Damia,E., Messina,G.,
+            Mendez-Lago,M., de Pablos,B., Demakova,O.V., Andreyeva,E.N.,
+            Boldyreva,L.V., Marra,M., Carvalho,A.B., Dimitri,P., Villasante,A.,
+            Zhimulev,I.F., Rubin,G.M., Karpen,G.H. and Celniker,S.E.
+  TITLE     The Release 6 reference sequence of the Drosophila melanogaster
+            genome
+  JOURNAL   Genome Res 25 (3), 445-458 (2015)
+   PUBMED   25589440
+REFERENCE   4  (bases 1 to 30372)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Kennedy,C., Acevedo,D., Evans-Holm,M.,
+            Frise,E., Wan,K.H., Park,S., Mendez-Lago,M., Rossi,F.,
+            Villasante,A., Dimitri,P., Karpen,G.H. and Celniker,S.E.
+  TITLE     Sequence finishing and mapping of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1625-1628 (2007)
+   PUBMED   17569867
+REFERENCE   5  (bases 1 to 30372)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  TITLE     The Release 5.1 annotation of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1586-1591 (2007)
+   PUBMED   17569856
+  REMARK    Erratum:[Science. 2007 Sep 7;317(5843):1325]
+REFERENCE   6  (bases 1 to 30372)
+  AUTHORS   Quesneville,H., Bergman,C.M., Andrieu,O., Autard,D., Nouaud,D.,
+            Ashburner,M. and Anxolabehere,D.
+  TITLE     Combined evidence annotation of transposable elements in genome
+            sequences
+  JOURNAL   PLoS Comput Biol 1 (2), 166-175 (2005)
+   PUBMED   16110336
+REFERENCE   7  (bases 1 to 30372)
+  AUTHORS   Hoskins,R.A., Smith,C.D., Carlson,J.W., Carvalho,A.B., Halpern,A.,
+            Kaminker,J.S., Kennedy,C., Mungall,C.J., Sullivan,B.A.,
+            Sutton,G.G., Yasuhara,J.C., Wakimoto,B.T., Myers,E.W.,
+            Celniker,S.E., Rubin,G.M. and Karpen,G.H.
+  TITLE     Heterochromatic sequences in a Drosophila whole-genome shotgun
+            assembly
+  JOURNAL   Genome Biol 3 (12), RESEARCH0085 (2002)
+   PUBMED   12537574
+REFERENCE   8  (bases 1 to 30372)
+  AUTHORS   Kaminker,J.S., Bergman,C.M., Kronmiller,B., Carlson,J.,
+            Svirskas,R., Patel,S., Frise,E., Wheeler,D.A., Lewis,S.E.,
+            Rubin,G.M., Ashburner,M. and Celniker,S.E.
+  TITLE     The transposable elements of the Drosophila melanogaster
+            euchromatin: a genomics perspective
+  JOURNAL   Genome Biol 3 (12), RESEARCH0084 (2002)
+   PUBMED   12537573
+REFERENCE   9  (bases 1 to 30372)
+  AUTHORS   Misra,S., Crosby,M.A., Mungall,C.J., Matthews,B.B., Campbell,K.S.,
+            Hradecky,P., Huang,Y., Kaminker,J.S., Millburn,G.H., Prochnik,S.E.,
+            Smith,C.D., Tupy,J.L., Whitfied,E.J., Bayraktaroglu,L.,
+            Berman,B.P., Bettencourt,B.R., Celniker,S.E., de Grey,A.D.,
+            Drysdale,R.A., Harris,N.L., Richter,J., Russo,S., Schroeder,A.J.,
+            Shu,S.Q., Stapleton,M., Yamada,C., Ashburner,M., Gelbart,W.M.,
+            Rubin,G.M. and Lewis,S.E.
+  TITLE     Annotation of the Drosophila melanogaster euchromatic genome: a
+            systematic review
+  JOURNAL   Genome Biol 3 (12), RESEARCH0083 (2002)
+   PUBMED   12537572
+REFERENCE   10 (bases 1 to 30372)
+  AUTHORS   Celniker,S.E., Wheeler,D.A., Kronmiller,B., Carlson,J.W.,
+            Halpern,A., Patel,S., Adams,M., Champe,M., Dugan,S.P., Frise,E.,
+            Hodgson,A., George,R.A., Hoskins,R.A., Laverty,T., Muzny,D.M.,
+            Nelson,C.R., Pacleb,J.M., Park,S., Pfeiffer,B.D., Richards,S.,
+            Sodergren,E.J., Svirskas,R., Tabor,P.E., Wan,K., Stapleton,M.,
+            Sutton,G.G., Venter,C., Weinstock,G., Scherer,S.E., Myers,E.W.,
+            Gibbs,R.A. and Rubin,G.M.
+  TITLE     Finishing a whole-genome shotgun: release 3 of the Drosophila
+            melanogaster euchromatic genome sequence
+  JOURNAL   Genome Biol 3 (12), RESEARCH0079 (2002)
+   PUBMED   12537568
+REFERENCE   11 (bases 1 to 30372)
+  AUTHORS   Adams,M.D., Celniker,S.E., Holt,R.A., Evans,C.A., Gocayne,J.D.,
+            Amanatides,P.G., Scherer,S.E., Li,P.W., Hoskins,R.A., Galle,R.F.,
+            George,R.A., Lewis,S.E., Richards,S., Ashburner,M., Henderson,S.N.,
+            Sutton,G.G., Wortman,J.R., Yandell,M.D., Zhang,Q., Chen,L.X.,
+            Brandon,R.C., Rogers,Y.H., Blazej,R.G., Champe,M., Pfeiffer,B.D.,
+            Wan,K.H., Doyle,C., Baxter,E.G., Helt,G., Nelson,C.R., Gabor,G.L.,
+            Abril,J.F., Agbayani,A., An,H.J., Andrews-Pfannkoch,C., Baldwin,D.,
+            Ballew,R.M., Basu,A., Baxendale,J., Bayraktaroglu,L., Beasley,E.M.,
+            Beeson,K.Y., Benos,P.V., Berman,B.P., Bhandari,D., Bolshakov,S.,
+            Borkova,D., Botchan,M.R., Bouck,J., Brokstein,P., Brottier,P.,
+            Burtis,K.C., Busam,D.A., Butler,H., Cadieu,E., Center,A.,
+            Chandra,I., Cherry,J.M., Cawley,S., Dahlke,C., Davenport,L.B.,
+            Davies,P., de Pablos,B., Delcher,A., Deng,Z., Mays,A.D., Dew,I.,
+            Dietz,S.M., Dodson,K., Doup,L.E., Downes,M., Dugan-Rocha,S.,
+            Dunkov,B.C., Dunn,P., Durbin,K.J., Evangelista,C.C., Ferraz,C.,
+            Ferriera,S., Fleischmann,W., Fosler,C., Gabrielian,A.E., Garg,N.S.,
+            Gelbart,W.M., Glasser,K., Glodek,A., Gong,F., Gorrell,J.H., Gu,Z.,
+            Guan,P., Harris,M., Harris,N.L., Harvey,D., Heiman,T.J.,
+            Hernandez,J.R., Houck,J., Hostin,D., Houston,K.A., Howland,T.J.,
+            Wei,M.H., Ibegwam,C., Jalali,M., Kalush,F., Karpen,G.H., Ke,Z.,
+            Kennison,J.A., Ketchum,K.A., Kimmel,B.E., Kodira,C.D., Kraft,C.,
+            Kravitz,S., Kulp,D., Lai,Z., Lasko,P., Lei,Y., Levitsky,A.A.,
+            Li,J., Li,Z., Liang,Y., Lin,X., Liu,X., Mattei,B., McIntosh,T.C.,
+            McLeod,M.P., McPherson,D., Merkulov,G., Milshina,N.V., Mobarry,C.,
+            Morris,J., Moshrefi,A., Mount,S.M., Moy,M., Murphy,B., Murphy,L.,
+            Muzny,D.M., Nelson,D.L., Nelson,D.R., Nelson,K.A., Nixon,K.,
+            Nusskern,D.R., Pacleb,J.M., Palazzolo,M., Pittman,G.S., Pan,S.,
+            Pollard,J., Puri,V., Reese,M.G., Reinert,K., Remington,K.,
+            Saunders,R.D., Scheeler,F., Shen,H., Shue,B.C., Siden-Kiamos,I.,
+            Simpson,M., Skupski,M.P., Smith,T., Spier,E., Spradling,A.C.,
+            Stapleton,M., Strong,R., Sun,E., Svirskas,R., Tector,C., Turner,R.,
+            Venter,E., Wang,A.H., Wang,X., Wang,Z.Y., Wassarman,D.A.,
+            Weinstock,G.M., Weissenbach,J., Williams,S.M., WoodageT,
+            Worley,K.C., Wu,D., Yang,S., Yao,Q.A., Ye,J., Yeh,R.F.,
+            Zaveri,J.S., Zhan,M., Zhang,G., Zhao,Q., Zheng,L., Zheng,X.H.,
+            Zhong,F.N., Zhong,W., Zhou,X., Zhu,S., Zhu,X., Smith,H.O.,
+            Gibbs,R.A., Myers,E.W., Rubin,G.M. and Venter,J.C.
+  TITLE     The genome sequence of Drosophila melanogaster
+  JOURNAL   Science 287 (5461), 2185-2195 (2000)
+   PUBMED   10731132
+REFERENCE   12 (bases 1 to 30372)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Pfeiffer,B., Frise,E., George,R.,
+            Hoskins,R., Stapleton,M., Pacleb,J., Park,S., Svirskas,R.,
+            Smith,E., Yu,C. and Rubin,G.
+  CONSRTM   Berkeley Drosophila Genome Project
+  TITLE     Drosophila melanogaster release 4 sequence
+  JOURNAL   Unpublished
+REFERENCE   13 (bases 1 to 30372)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   14 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2022) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   15 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2020) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   16 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2019) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   17 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2018) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   18 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2016) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   19 (bases 1 to 30372)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2015) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   20 (bases 1 to 30372)
+  AUTHORS   Celniker,S., Carlson,J., Kennedy,C., Wan,K., Frise,E., Hoskins,R.,
+            Park,S., Svirskas,R. and Karpen,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One #Cyclotron RoadOne
+            Cyclotron Road, MS 64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   21 (bases 1 to 30372)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Frise,E., Hoskins,R., Park,S.,
+            Svirskas,R. and Rubin,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One Cyclotron Road, MS
+            64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   22 (bases 1 to 30372)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  CONSRTM   Drosophila Heterochromatin Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2006) Drosophila Heterochromatin Genome Project,
+            Ernest Orlando Lawrence Berkeley National Laboratory, 1 Cyclotron
+            Road, Mailstop 64-121, Berkeley, CA 94720, USA
+REFERENCE   23 (bases 1 to 30372)
+  AUTHORS   Adams,M.D., Celniker,S.E., Gibbs,R.A., Rubin,G.M. and Venter,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2000) Celera Genomics, 45 West Gude Drive,
+            Rockville, MD 20850, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by FlyBase. The
+            reference sequence is identical to AE013599.
+            
+            On or before Aug 4, 2014 this sequence version replaced
+            NW_001848856.1, NW_001844732.1, NW_001844738.1, NT_033778.3.
+            This is Release 6 of the Drosophila melanogaster genome, produced
+            jointly by the Berkeley Drosophila Genome Project, Celera Genomics,
+            and the Drosophila Heterochromatin Genome Project. The gene
+            annotation is based on Release 6.46 provided by FlyBase. Additional
+            information about this assembly and annotation can be found at
+            http://www.fruitfly.org and http://flybase.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: FlyBase
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Release 6.46
+            URL                 :: http://flybase.org
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..30372
+                     /organism="Drosophila melanogaster"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:7227"
+                     /chromosome="2R"
+                     /genotype="y[1]; Gr22b[1] Gr22d[1] cn[1] CG33964[R4.2]
+                     bw[1] sp[1]; LysC[1] MstProx[1] GstD5[1] Rh6[1]"
+     gene            <1..674
+                     /gene="asRNA:CR43468"
+                     /locus_tag="Dmel_CR43468"
+                     /gene_synonym="CR43468; Dmel\CR43468"
+                     /note="antisense RNA:CR43468"
+                     /map="49D6-49D6"
+                     /db_xref="FLYBASE:FBgn0263445"
+                     /db_xref="GeneID:12798427"
+     ncRNA           <1..674
+                     /ncRNA_class="antisense_RNA"
+                     /gene="asRNA:CR43468"
+                     /locus_tag="Dmel_CR43468"
+                     /gene_synonym="CR43468; Dmel\CR43468"
+                     /product="antisense RNA:CR43468"
+                     /note="asRNA:CR43468-RA; Dmel\asRNA:CR43468-RA;
+                     CR43468-RA; Dmel\CR43468-RA"
+                     /transcript_id="NR_048099.2"
+                     /db_xref="FLYBASE:FBtr0309293"
+                     /db_xref="GeneID:12798427"
+                     /db_xref="FLYBASE:FBgn0263445"
+     gene            complement(<1..360)
+                     /gene="Lfg"
+                     /locus_tag="Dmel_CG3814"
+                     /gene_synonym="BEST:CK02213; CG3814; CK02213; Dmel\CG3814;
+                     LFG"
+                     /note="Lifeguard"
+                     /map="49D6-49D6"
+                     /db_xref="FLYBASE:FBgn0025692"
+                     /db_xref="GeneID:36418"
+     mRNA            complement(<166..360)
+                     /gene="Lfg"
+                     /locus_tag="Dmel_CG3814"
+                     /gene_synonym="BEST:CK02213; CG3814; CK02213; Dmel\CG3814;
+                     LFG"
+                     /product="lifeguard, transcript variant B"
+                     /note="Lfg-RB; Dmel\Lfg-RB; CG3814-RB; Dmel\CG3814-RB"
+                     /transcript_id="NM_165955.3"
+                     /db_xref="FLYBASE:FBtr0087813"
+                     /db_xref="GeneID:36418"
+                     /db_xref="FLYBASE:FBgn0025692"
+     mRNA            complement(<166..226)
+                     /gene="Lfg"
+                     /locus_tag="Dmel_CG3814"
+                     /gene_synonym="BEST:CK02213; CG3814; CK02213; Dmel\CG3814;
+                     LFG"
+                     /product="lifeguard, transcript variant A"
+                     /note="Lfg-RA; Dmel\Lfg-RA; CG3814-RA; Dmel\CG3814-RA"
+                     /transcript_id="NM_136980.4"
+                     /db_xref="FLYBASE:FBtr0087814"
+                     /db_xref="GeneID:36418"
+                     /db_xref="FLYBASE:FBgn0025692"
+     CDS             complement(<166..184)
+                     /gene="Lfg"
+                     /locus_tag="Dmel_CG3814"
+                     /gene_synonym="BEST:CK02213; CG3814; CK02213; Dmel\CG3814;
+                     LFG"
+                     /note="CG3814 gene product from transcript CG3814-RB;
+                     CG3814-PB; Lfg-PB"
+                     /codon_start=1
+                     /product="lifeguard, isoform B"
+                     /protein_id="NP_725236.1"
+                     /db_xref="GI:24653219"
+                     /db_xref="FLYBASE:FBpp0086926"
+                     /db_xref="GeneID:36418"
+                     /db_xref="FLYBASE:FBgn0025692"
+                     /translation="MYHYQQGDETGAYTDAEADKSFAFDDQSIRKGFIRKVYLILMCQ
+                     LLITFGFVSVFTFSKASQEWVQKNPALFWIALAVLIVTMICMACCESVRRKTPLNFIF
+                     LFLFTVAESFLLGMVAGQFEADEVLMAVGITAAVALGLTLFALQTKYDFTMCGGVLVA
+                     CLVVFIIFGIIAIFIPGKVIGLVYASLGALLFSVYLVYDTQLMLGGNHKYSISPEEYI
+                     FAALNLYLDIINIFMYILTIIGLSRN"
+     gene            398..6562
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /note="Aspartyl-tRNA synthetase"
+                     /map="49D6-49D7"
+                     /db_xref="FLYBASE:FBgn0002069"
+                     /db_xref="GeneID:36420"
+     mRNA            join(398..551,3562..3774,4164..4264,4344..4669,4902..5926,
+                     6136..6562)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /product="Aspartyl-tRNA synthetase, transcript variant B"
+                     /note="AspRS-RB; Dmel\AspRS-RB; CG3821-RB; Dmel\CG3821-RB"
+                     /transcript_id="NM_001274002.2"
+                     /db_xref="FLYBASE:FBtr0332882"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+     gene            complement(488..3624)
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="N-methyl-D-aspartate receptor-associated protein"
+                     /map="49D6-49D6"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /db_xref="GeneID:36419"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2591..2616,3513..3624))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant H"
+                     /note="Nmda1-RH; Dmel\Nmda1-RH; CG3798-RH; Dmel\CG3798-RH"
+                     /transcript_id="NM_001259360.2"
+                     /db_xref="FLYBASE:FBtr0309295"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2446..2540,3083..3192))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant C"
+                     /note="Nmda1-RC; Dmel\Nmda1-RC; CG3798-RC; Dmel\CG3798-RC"
+                     /transcript_id="NM_078998.4"
+                     /db_xref="FLYBASE:FBtr0089877"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2591..2616,3083..3192))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant A"
+                     /note="Nmda1-RA; Dmel\Nmda1-RA; CG3798-RA; Dmel\CG3798-RA"
+                     /transcript_id="NM_165956.3"
+                     /db_xref="FLYBASE:FBtr0089876"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2616,
+                     3083..3192))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant F"
+                     /note="Nmda1-RF; Dmel\Nmda1-RF; CG3798-RF; Dmel\CG3798-RF"
+                     /transcript_id="NM_165959.3"
+                     /db_xref="FLYBASE:FBtr0089878"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2591..2616,2846..3050))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant G"
+                     /note="Nmda1-RG; Dmel\Nmda1-RG; CG3798-RG; Dmel\CG3798-RG"
+                     /transcript_id="NM_001259359.1"
+                     /db_xref="FLYBASE:FBtr0309294"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2446..2540,2842..3050))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant D"
+                     /note="Nmda1-RD; Dmel\Nmda1-RD; CG3798-RD; Dmel\CG3798-RD"
+                     /transcript_id="NM_165958.2"
+                     /db_xref="FLYBASE:FBtr0089875"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2591..2616,2842..3050))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant B"
+                     /note="Nmda1-RB; Dmel\Nmda1-RB; CG3798-RB; Dmel\CG3798-RB"
+                     /transcript_id="NM_165957.2"
+                     /db_xref="FLYBASE:FBtr0089874"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2104,
+                     2446..2540,2617..2767))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant E"
+                     /note="Nmda1-RE; Dmel\Nmda1-RE; CG3798-RE; Dmel\CG3798-RE"
+                     /transcript_id="NM_165960.2"
+                     /db_xref="FLYBASE:FBtr0089873"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     mRNA            complement(join(488..1408,1467..1715,1779..2200))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, transcript variant I"
+                     /note="Nmda1-RI; Dmel\Nmda1-RI; CG3798-RI; Dmel\CG3798-RI"
+                     /transcript_id="NM_001274000.1"
+                     /db_xref="FLYBASE:FBtr0332883"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2591..2597))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RA;
+                     CG3798-PA; Nmda1-PA; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform A"
+                     /protein_id="NP_725237.1"
+                     /db_xref="GI:24653221"
+                     /db_xref="FLYBASE:FBpp0088815"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPYAQG
+                     GAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIRRGF
+                     IRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMACCES
+                     VRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQTKY
+                     DFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMMGGE
+                     HKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2591..2597))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RB;
+                     CG3798-PB; Nmda1-PB; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform B"
+                     /protein_id="NP_725238.1"
+                     /db_xref="GI:24653223"
+                     /db_xref="FLYBASE:FBpp0088813"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPYAQG
+                     GAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIRRGF
+                     IRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMACCES
+                     VRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQTKY
+                     DFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMMGGE
+                     HKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2591..2597))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RG;
+                     CG3798-PG; Nmda1-PG; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform G"
+                     /protein_id="NP_001246288.1"
+                     /db_xref="GI:386767850"
+                     /db_xref="FLYBASE:FBpp0301212"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPYAQG
+                     GAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIRRGF
+                     IRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMACCES
+                     VRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQTKY
+                     DFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMMGGE
+                     HKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2591..2597))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RH;
+                     CG3798-PH; Nmda1-PH; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform H"
+                     /protein_id="NP_001246289.1"
+                     /db_xref="GI:386767852"
+                     /db_xref="FLYBASE:FBpp0301213"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPYAQG
+                     GAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIRRGF
+                     IRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMACCES
+                     VRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQTKY
+                     DFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMMGGE
+                     HKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2446..2485))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RC;
+                     CG3798-PC; Nmda1-PC; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform C"
+                     /protein_id="NP_523722.1"
+                     /db_xref="GI:17647735"
+                     /db_xref="FLYBASE:FBpp0088816"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MSWQSVPQYPQYQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQG
+                     PPQGYPPYAQGGAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNF
+                     SFDDQSIRRGFIRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVML
+                     VTMLSMACCESVRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCL
+                     ALTIFALQTKYDFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYL
+                     IYDTQLMMGGEHKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2446..2485))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RD;
+                     CG3798-PD; Nmda1-PD; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform D"
+                     /protein_id="NP_725239.1"
+                     /db_xref="GI:24653225"
+                     /db_xref="FLYBASE:FBpp0088814"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MSWQSVPQYPQYQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQG
+                     PPQGYPPYAQGGAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNF
+                     SFDDQSIRRGFIRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVML
+                     VTMLSMACCESVRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCL
+                     ALTIFALQTKYDFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYL
+                     IYDTQLMMGGEHKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2104,
+                     2446..2485))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RE;
+                     CG3798-PE; Nmda1-PE; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform E"
+                     /protein_id="NP_725241.2"
+                     /db_xref="GI:45551091"
+                     /db_xref="FLYBASE:FBpp0088812"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MSWQSVPQYPQYQDPNQQYNYGGGNPPQGGYGGYPPQGGYPPQG
+                     PPQGYPPYAQGGAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNF
+                     SFDDQSIRRGFIRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVML
+                     VTMLSMACCESVRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCL
+                     ALTIFALQTKYDFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYL
+                     IYDTQLMMGGEHKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2120))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RF;
+                     CG3798-PF; Nmda1-PF; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform F"
+                     /protein_id="NP_725240.1"
+                     /db_xref="GI:24653227"
+                     /db_xref="FLYBASE:FBpp0088817"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MSYFADPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPY
+                     AQGGAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIR
+                     RGFIRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMAC
+                     CESVRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQ
+                     TKYDFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMM
+                     GGEHKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     CDS             complement(join(1049..1408,1467..1715,1779..2120))
+                     /gene="Nmda1"
+                     /locus_tag="Dmel_CG3798"
+                     /gene_synonym="cDNA2; CG3798; Dmel\CG3798; dNMDARA1;
+                     DRONMDA; dTmbim3; NMDA1; NMDARA1"
+                     /note="CG3798 gene product from transcript CG3798-RI;
+                     CG3798-PI; Nmda1-PI; NMDARA1-like"
+                     /codon_start=1
+                     /product="N-methyl-D-aspartate receptor-associated
+                     protein, isoform I"
+                     /protein_id="NP_001260929.1"
+                     /db_xref="GI:442623506"
+                     /db_xref="FLYBASE:FBpp0305105"
+                     /db_xref="GeneID:36419"
+                     /db_xref="FLYBASE:FBgn0013305"
+                     /translation="MSYFADPNQQYNYGGGNPPQGGYGGYPPQGGYPPQGPPQGYPPY
+                     AQGGAQPYPQPYGQGPPPGGYAPQPGFIQPPPSAGGYGAYDDPESQPKNFSFDDQSIR
+                     RGFIRKVYLILMGQLIVTFGAVALFVYHEGTKTFARNNMWLFWVALGVMLVTMLSMAC
+                     CESVRRQTPTNFIFLGLFTAAQSFLMGVSATKYAPKEVLMAVGITAAVCLALTIFALQ
+                     TKYDFTMMGGILIACMVVFLIFGIVAIFVKGKIITLVYASIGALLFSVYLIYDTQLMM
+                     GGEHKYSISPEEYIFAALNLYLDIINIFMYILTIIGASRD"
+     mRNA            join(3678..3774,4164..4264,4344..4669,4902..5926,
+                     6136..6562)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /product="Aspartyl-tRNA synthetase, transcript variant A"
+                     /note="AspRS-RA; Dmel\AspRS-RA; CG3821-RA; Dmel\CG3821-RA"
+                     /transcript_id="NM_057261.4"
+                     /db_xref="FLYBASE:FBtr0087784"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+     mRNA            join(3826..3845,4164..4264,4344..4669,4902..5926,
+                     6136..6562)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /product="Aspartyl-tRNA synthetase, transcript variant C"
+                     /note="AspRS-RC; Dmel\AspRS-RC; CG3821-RC; Dmel\CG3821-RC"
+                     /transcript_id="NM_001274001.1"
+                     /db_xref="FLYBASE:FBtr0339391"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+     CDS             join(4184..4264,4344..4669,4902..5926,6136..6299)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /EC_number="6.1.1.12"
+                     /note="CG3821 gene product from transcript CG3821-RA;
+                     CG3821-PA; AspRS-PA; lethal(2)49Db"
+                     /codon_start=1
+                     /product="Aspartyl-tRNA synthetase, isoform A"
+                     /protein_id="NP_476609.1"
+                     /db_xref="GI:17136276"
+                     /db_xref="FLYBASE:FBpp0086897"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+                     /translation="MVEDKEQVANGEQVSKKGAKKLAKAAKKAEQKAENASTAAANNA
+                     GGDSAEDHAAGRYGLSEMIQSKDKRSERNFVPVSELSGQVGKGLVWVRGRVHTSRAKG
+                     KQCFLILRQQSSTVQCILAVGDVISKQMVKFAGNIPKESIIDIQAKPVAVSSKIESCT
+                     EQSLELSVEQIFVISQAKAQLPLQIEDASRPENADDAEGLNIRVNQDTRLDNRVLDLR
+                     TPANQAIFRLEAGVCRLFRDILTEQGFTEIHTPKIISAASEGGANVFTVSYFKDSAYL
+                     AQSPQLYKQMAIAADFDKVYTVGAVFRAEDSNTHRHLTEFVGLDLEMAFKYHYHEVLH
+                     TIGNTFTSIFKGLRDKYAKEIESVGQQYKVDAFKFLEPPLILQFADGVAMLREAGVET
+                     GDEEDLSTPNEKLLGRLVKAKYDTDFYILDKFPLAIRPFYTMPDPNNPVYSNSYDMFM
+                     RGEEILSGAQRIHDPEYLIERAKHHGIDTSKIAAYIESFRYGCPPHAGGGIGMERVVM
+                     LYLGLDNIRKTSMFPRDPKRLTP"
+     CDS             join(4184..4264,4344..4669,4902..5926,6136..6299)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /EC_number="6.1.1.12"
+                     /note="CG3821 gene product from transcript CG3821-RC;
+                     CG3821-PC; AspRS-PC; lethal(2)49Db"
+                     /codon_start=1
+                     /product="Aspartyl-tRNA synthetase, isoform C"
+                     /protein_id="NP_001260930.1"
+                     /db_xref="GI:442623508"
+                     /db_xref="FLYBASE:FBpp0308483"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+                     /translation="MVEDKEQVANGEQVSKKGAKKLAKAAKKAEQKAENASTAAANNA
+                     GGDSAEDHAAGRYGLSEMIQSKDKRSERNFVPVSELSGQVGKGLVWVRGRVHTSRAKG
+                     KQCFLILRQQSSTVQCILAVGDVISKQMVKFAGNIPKESIIDIQAKPVAVSSKIESCT
+                     EQSLELSVEQIFVISQAKAQLPLQIEDASRPENADDAEGLNIRVNQDTRLDNRVLDLR
+                     TPANQAIFRLEAGVCRLFRDILTEQGFTEIHTPKIISAASEGGANVFTVSYFKDSAYL
+                     AQSPQLYKQMAIAADFDKVYTVGAVFRAEDSNTHRHLTEFVGLDLEMAFKYHYHEVLH
+                     TIGNTFTSIFKGLRDKYAKEIESVGQQYKVDAFKFLEPPLILQFADGVAMLREAGVET
+                     GDEEDLSTPNEKLLGRLVKAKYDTDFYILDKFPLAIRPFYTMPDPNNPVYSNSYDMFM
+                     RGEEILSGAQRIHDPEYLIERAKHHGIDTSKIAAYIESFRYGCPPHAGGGIGMERVVM
+                     LYLGLDNIRKTSMFPRDPKRLTP"
+     CDS             join(4184..4264,4344..4669,4902..5926,6136..6299)
+                     /gene="AspRS"
+                     /locus_tag="Dmel_CG3821"
+                     /gene_synonym="aaRS(Asp); aats-asp; Aats-asp; Aats-Asp;
+                     anon-EST:Liang-2.49; cDNA1; CG3821; clone 2.49; DARS;
+                     Dmel\CG3821; DRS; l(2)49Db; l(2)k04508; l(2)v27; l(2)vr1;
+                     poney; vr1"
+                     /EC_number="6.1.1.12"
+                     /note="CG3821 gene product from transcript CG3821-RB;
+                     CG3821-PB; AspRS-PB; lethal(2)49Db"
+                     /codon_start=1
+                     /product="Aspartyl-tRNA synthetase, isoform B"
+                     /protein_id="NP_001260931.1"
+                     /db_xref="GI:442623511"
+                     /db_xref="FLYBASE:FBpp0305104"
+                     /db_xref="GeneID:36420"
+                     /db_xref="FLYBASE:FBgn0002069"
+                     /translation="MVEDKEQVANGEQVSKKGAKKLAKAAKKAEQKAENASTAAANNA
+                     GGDSAEDHAAGRYGLSEMIQSKDKRSERNFVPVSELSGQVGKGLVWVRGRVHTSRAKG
+                     KQCFLILRQQSSTVQCILAVGDVISKQMVKFAGNIPKESIIDIQAKPVAVSSKIESCT
+                     EQSLELSVEQIFVISQAKAQLPLQIEDASRPENADDAEGLNIRVNQDTRLDNRVLDLR
+                     TPANQAIFRLEAGVCRLFRDILTEQGFTEIHTPKIISAASEGGANVFTVSYFKDSAYL
+                     AQSPQLYKQMAIAADFDKVYTVGAVFRAEDSNTHRHLTEFVGLDLEMAFKYHYHEVLH
+                     TIGNTFTSIFKGLRDKYAKEIESVGQQYKVDAFKFLEPPLILQFADGVAMLREAGVET
+                     GDEEDLSTPNEKLLGRLVKAKYDTDFYILDKFPLAIRPFYTMPDPNNPVYSNSYDMFM
+                     RGEEILSGAQRIHDPEYLIERAKHHGIDTSKIAAYIESFRYGCPPHAGGGIGMERVVM
+                     LYLGLDNIRKTSMFPRDPKRLTP"
+     gene            complement(4839..6647)
+                     /gene="asRNA:CR45141"
+                     /locus_tag="Dmel_CR45141"
+                     /gene_synonym="CR45141; Dmel\CR45141"
+                     /note="antisense RNA:CR45141"
+                     /map="49D7-49D7"
+                     /db_xref="FLYBASE:FBgn0266634"
+                     /db_xref="GeneID:19835546"
+     ncRNA           complement(join(4839..6003,6140..6647))
+                     /ncRNA_class="antisense_RNA"
+                     /gene="asRNA:CR45141"
+                     /locus_tag="Dmel_CR45141"
+                     /gene_synonym="CR45141; Dmel\CR45141"
+                     /product="antisense RNA:CR45141"
+                     /note="asRNA:CR45141-RA; Dmel\asRNA:CR45141-RA;
+                     CR45141-RA; Dmel\CR45141-RA"
+                     /transcript_id="NR_124535.1"
+                     /db_xref="FLYBASE:FBtr0344927"
+                     /db_xref="GeneID:19835546"
+                     /db_xref="FLYBASE:FBgn0266634"
+     gene            7595..22779
+                     /gene="vg"
+                     /locus_tag="Dmel_CG3830"
+                     /gene_synonym="CG3830; Dmel\CG3830; Vg; VG; vg21"
+                     /note="vestigial"
+                     /map="49E1-49E1"
+                     /db_xref="FLYBASE:FBgn0003975"
+                     /db_xref="GeneID:36421"
+     mRNA            join(7595..8705,9763..10634,14861..15341,16068..16445,
+                     21120..21211,21396..21589,21662..21723,22076..22779)
+                     /gene="vg"
+                     /locus_tag="Dmel_CG3830"
+                     /gene_synonym="CG3830; Dmel\CG3830; Vg; VG; vg21"
+                     /product="vestigial, transcript variant B"
+                     /note="vg-RB; Dmel\vg-RB; CG3830-RB; Dmel\CG3830-RB"
+                     /transcript_id="NM_001414091.1"
+                     /db_xref="FLYBASE:FBtr0481629"
+                     /db_xref="GeneID:36421"
+                     /db_xref="FLYBASE:FBgn0003975"
+     mRNA            join(8026..8705,9763..10634,14861..15341,16068..16445,
+                     21120..21211,21396..21589,21662..21723,22076..22779)
+                     /gene="vg"
+                     /locus_tag="Dmel_CG3830"
+                     /gene_synonym="CG3830; Dmel\CG3830; Vg; VG; vg21"
+                     /product="vestigial, transcript variant A"
+                     /note="vg-RA; Dmel\vg-RA; CG3830-RA; Dmel\CG3830-RA"
+                     /transcript_id="NM_078999.4"
+                     /db_xref="FLYBASE:FBtr0087785"
+                     /db_xref="GeneID:36421"
+                     /db_xref="FLYBASE:FBgn0003975"
+     CDS             join(10539..10634,14861..15341,16068..16445,21120..21211,
+                     21396..21589,21662..21723,22076..22134)
+                     /gene="vg"
+                     /locus_tag="Dmel_CG3830"
+                     /gene_synonym="CG3830; Dmel\CG3830; Vg; VG; vg21"
+                     /note="CG3830 gene product from transcript CG3830-RA;
+                     CG3830-PA; vg-PA; vestigial; vestgial; vestigal"
+                     /codon_start=1
+                     /product="vestigial, isoform A"
+                     /protein_id="NP_523723.1"
+                     /db_xref="GI:17648101"
+                     /db_xref="FLYBASE:FBpp0086898"
+                     /db_xref="GeneID:36421"
+                     /db_xref="FLYBASE:FBgn0003975"
+                     /translation="MAVSCPEVMYGAYYPYLYGRAGTSRSFYQYERFNQDLYSSSGVN
+                     LAASSSASGSSHSPCSPILPPSVSANAAAAVAAAAHNSAAAAVAVAANQASSSGGIGG
+                     GGLGGLGGLGGGPASGLLGSNVVPGSSSVGSVGLGMSPVLSGAAGHSLHSSHRTHAHS
+                     LAHAHTHPHSHTHTHTHQTKEEDLIVPRSEAEARLVGSQQHQHHNESSCSSGPDSPRH
+                     AHSHSHPLHGGGGATGGPSSAGGTGSGGGDGGGTGAIPKNLPALETPMGSGGGGLAGS
+                     GQGQAQYLSASCVVFTNYSGDTASQVDEHFSRALNYNNKDSKESSSPMSNRNFPPSFW
+                     NSNYVHPIPAPTHHQVSDLYGTATDTGYATDPWVPHAAHYGSYAHAAHAHAAHAHAYH
+                     HNMAQYGSLLRLPQQYASHGSRLHHDQQTAHALEYSSYPTMAGLEAQVAQVQESSKDL
+                     YWF"
+     CDS             join(10539..10634,14861..15341,16068..16445,21120..21211,
+                     21396..21589,21662..21723,22076..22134)
+                     /gene="vg"
+                     /locus_tag="Dmel_CG3830"
+                     /gene_synonym="CG3830; Dmel\CG3830; Vg; VG; vg21"
+                     /note="CG3830 gene product from transcript CG3830-RB;
+                     CG3830-PB; vg-PB; vestigial; vestgial; vestigal"
+                     /codon_start=1
+                     /product="vestigial, isoform B"
+                     /protein_id="NP_001401005.1"
+                     /db_xref="GI:2329048332"
+                     /db_xref="FLYBASE:FBpp0428411"
+                     /db_xref="GeneID:36421"
+                     /db_xref="FLYBASE:FBgn0003975"
+                     /translation="MAVSCPEVMYGAYYPYLYGRAGTSRSFYQYERFNQDLYSSSGVN
+                     LAASSSASGSSHSPCSPILPPSVSANAAAAVAAAAHNSAAAAVAVAANQASSSGGIGG
+                     GGLGGLGGLGGGPASGLLGSNVVPGSSSVGSVGLGMSPVLSGAAGHSLHSSHRTHAHS
+                     LAHAHTHPHSHTHTHTHQTKEEDLIVPRSEAEARLVGSQQHQHHNESSCSSGPDSPRH
+                     AHSHSHPLHGGGGATGGPSSAGGTGSGGGDGGGTGAIPKNLPALETPMGSGGGGLAGS
+                     GQGQAQYLSASCVVFTNYSGDTASQVDEHFSRALNYNNKDSKESSSPMSNRNFPPSFW
+                     NSNYVHPIPAPTHHQVSDLYGTATDTGYATDPWVPHAAHYGSYAHAAHAHAAHAHAYH
+                     HNMAQYGSLLRLPQQYASHGSRLHHDQQTAHALEYSSYPTMAGLEAQVAQVQESSKDL
+                     YWF"
+     gene            24275..25007
+                     /gene="lncRNA:CR46237"
+                     /locus_tag="Dmel_CR46237"
+                     /gene_synonym="CR46237; Dmel\CR46237; lincRNA.294"
+                     /note="long non-coding RNA:CR46237"
+                     /map="49E1-49E1"
+                     /db_xref="FLYBASE:FBgn0267957"
+                     /db_xref="GeneID:26067548"
+     ncRNA           24275..25007
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46237"
+                     /locus_tag="Dmel_CR46237"
+                     /gene_synonym="CR46237; Dmel\CR46237; lincRNA.294"
+                     /product="long non-coding RNA:CR46237"
+                     /note="putative non-coding RNA; lncRNA:CR46237-RA;
+                     Dmel\lncRNA:CR46237-RA; CR46237-RA; Dmel\CR46237-RA"
+                     /transcript_id="NR_133115.1"
+                     /db_xref="FLYBASE:FBtr0347533"
+                     /db_xref="GeneID:26067548"
+                     /db_xref="FLYBASE:FBgn0267957"
+     mobile_element  25643..25706
+                     /mobile_element_type="transposon:Doc4{}4996"
+                     /db_xref="FLYBASE:FBti0063057"
+     gene            27188..29630
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /note="long non-coding RNA:CR46336; alternate names: vg
+                     PRE/TRE forward strand"
+                     /map="49E1-49E1"
+                     /db_xref="FLYBASE:FBgn0285940"
+                     /db_xref="GeneID:36786386"
+     ncRNA           27188..28857
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46336"
+                     /note="putative non-coding RNA; lncRNA:CR46336-RA;
+                     Dmel\lncRNA:CR46336-RA; CR46336-RA; Dmel\CR46336-RA"
+                     /transcript_id="NR_156786.1"
+                     /db_xref="FLYBASE:FBtr0472677"
+                     /db_xref="GeneID:36786386"
+                     /db_xref="FLYBASE:FBgn0285940"
+     ncRNA           27344..28412
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46336"
+                     /note="putative non-coding RNA; lncRNA:CR46336-RB;
+                     Dmel\lncRNA:CR46336-RB; CR46336-RB; Dmel\CR46336-RB"
+                     /transcript_id="NR_156787.1"
+                     /db_xref="FLYBASE:FBtr0472678"
+                     /db_xref="GeneID:36786386"
+                     /db_xref="FLYBASE:FBgn0285940"
+     gene            complement(27939..29631)
+                     /gene="lncRNA:CR46337"
+                     /locus_tag="Dmel_CR46337"
+                     /gene_synonym="CR46337; Dmel\CR46337; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /note="long non-coding RNA:CR46337; alternate names: vg
+                     PRE/TRE reverse strand"
+                     /map="49E1-49E1"
+                     /db_xref="FLYBASE:FBgn0285941"
+                     /db_xref="GeneID:36786387"
+     ncRNA           complement(27939..29132)
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46337"
+                     /locus_tag="Dmel_CR46337"
+                     /gene_synonym="CR46337; Dmel\CR46337; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46337"
+                     /note="putative non-coding RNA; lncRNA:CR46337-RB;
+                     Dmel\lncRNA:CR46337-RB; CR46337-RB; Dmel\CR46337-RB"
+                     /transcript_id="NR_156792.1"
+                     /db_xref="FLYBASE:FBtr0472683"
+                     /db_xref="GeneID:36786387"
+                     /db_xref="FLYBASE:FBgn0285941"
+     ncRNA           28170..28967
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46336"
+                     /note="putative non-coding RNA; lncRNA:CR46336-RC;
+                     Dmel\lncRNA:CR46336-RC; CR46336-RC; Dmel\CR46336-RC"
+                     /transcript_id="NR_156788.1"
+                     /db_xref="FLYBASE:FBtr0472679"
+                     /db_xref="GeneID:36786386"
+                     /db_xref="FLYBASE:FBgn0285940"
+     ncRNA           28281..28967
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46336"
+                     /note="putative non-coding RNA; lncRNA:CR46336-RD;
+                     Dmel\lncRNA:CR46336-RD; CR46336-RD; Dmel\CR46336-RD"
+                     /transcript_id="NR_156789.1"
+                     /db_xref="FLYBASE:FBtr0472680"
+                     /db_xref="GeneID:36786386"
+                     /db_xref="FLYBASE:FBgn0285940"
+     ncRNA           28392..29630
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46336"
+                     /locus_tag="Dmel_CR46336"
+                     /gene_synonym="CR46336; Dmel\CR46336; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46336"
+                     /note="putative non-coding RNA; lncRNA:CR46336-RE;
+                     Dmel\lncRNA:CR46336-RE; CR46336-RE; Dmel\CR46336-RE"
+                     /transcript_id="NR_156790.1"
+                     /db_xref="FLYBASE:FBtr0472681"
+                     /db_xref="GeneID:36786386"
+                     /db_xref="FLYBASE:FBgn0285940"
+     ncRNA           complement(28836..29631)
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR46337"
+                     /locus_tag="Dmel_CR46337"
+                     /gene_synonym="CR46337; Dmel\CR46337; lncRNA-vg-PRE/TRE;
+                     vg-PRE/TRE"
+                     /product="long non-coding RNA:CR46337"
+                     /note="putative non-coding RNA; lncRNA:CR46337-RA;
+                     Dmel\lncRNA:CR46337-RA; CR46337-RA; Dmel\CR46337-RA"
+                     /transcript_id="NR_156791.1"
+                     /db_xref="FLYBASE:FBtr0472682"
+                     /db_xref="GeneID:36786387"
+                     /db_xref="FLYBASE:FBgn0285941"
+     gene            29789..>30372
+                     /gene="lncRNA:CR44461"
+                     /locus_tag="Dmel_CR44461"
+                     /gene_synonym="CR44461; Dmel\CR44461; lincRNA.295"
+                     /note="long non-coding RNA:CR44461"
+                     /map="49E1-49E1"
+                     /db_xref="FLYBASE:FBgn0265654"
+                     /db_xref="GeneID:19835212"
+     ncRNA           join(29789..30249,30320..>30372)
+                     /ncRNA_class="lncRNA"
+                     /gene="lncRNA:CR44461"
+                     /locus_tag="Dmel_CR44461"
+                     /gene_synonym="CR44461; Dmel\CR44461; lincRNA.295"
+                     /product="long non-coding RNA:CR44461"
+                     /note="putative non-coding RNA; lncRNA:CR44461-RA;
+                     Dmel\lncRNA:CR44461-RA; CR44461-RA; Dmel\CR44461-RA"
+                     /transcript_id="NR_124536.1"
+                     /db_xref="FLYBASE:FBtr0340521"
+                     /db_xref="GeneID:19835212"
+                     /db_xref="FLYBASE:FBgn0265654"
+ORIGIN      
+        1 ttatcagatg aaaatgcgcc gagagagata tattttgttg gctcttactg agagaaaacg
+       61 atgcagtcaa taagctttat acaatagcca aatcgattat ctaatctaaa gcacctttcc
+      121 gtagccaatt tggtttggtt tcagcccaat ccgggcggta cttaccttgc tggtagtgat
+      181 acattttata gctacgccct gctggaattc acacgaacta ctgaacaggt ggccgggtca
+      241 aacgcatgat atggggccaa cccgaaatta aaacacccgg acttctttct gtggtggtgc
+      301 agataacaaa gttaacttaa gcaatgataa agcaaaaatg cagacgataa tggtctggag
+      361 tgtagaagta atccaaccaa cggcgtcgct ctgaagtcgc agactaaagt tgcatctggt
+      421 ggtggctggc tggttgaact ggatgaacca ctgacggaag ccctacaatg caggggtctg
+      481 tggctttaat aaatagatgc gctttattgt tgactttaaa ctcagtgtcg ctgcagggat
+      541 tacaatgttc ggtacttgat tcatagttga aaatcgggat tccttggtta ttacacacgg
+      601 ttaagtttta tgtgttaaca actgcaagcc aacttgctta tatgtatatt tttacataaa
+      661 tatgtttata cgtgactatt tattgttgtt tcgtttatct gaatggcata tcatttggta
+      721 tacatacata tatataattt ttttattttt aaatttggaa atatccactt ggtttgcgcc
+      781 tcaacttaag caacaataaa acatacataa caaaaagtaa gtagttcata tagccttagt
+      841 tgacatttag aactagaagg aaacggggaa aatgggcaaa cacaacacga agtagataga
+      901 tttgtaagta tttgagtaat tcgttagttg aagattacct ccactggggg agcacaccga
+      961 tgagattacg cgacaacaat attcgtgtat tccaggttac tgaataaccc gattaagctg
+     1021 caaacaatat ttggaaatag agcggaactt agtcgcgcga tgcgccgatt atagtcagaa
+     1081 tgtacatgaa gatattgatg atgtccaggt agaggtttag tgccgcaaag atgtactcct
+     1141 cgggactgat agagtatttg tgctcgccgc ccatcattaa ctgtgtgtcg tagatgagat
+     1201 aaacggagaa gagcagcgct ccaatcgagg cgtacaccag tgttatgatc tttcccttta
+     1261 caaagatggc cacgatgccg aagatcagga acaccaccat gcaggcgatc aaaataccgc
+     1321 ccatcatagt aaagtcgtac tttgtctgca aggcgaagat cgttagggcc aagcaaaccg
+     1381 ctgctgttat gcccaccgcc atgagaacct ggaaaacaga tatcgtatca ctttactaca
+     1441 tatcgtaatt aaatcgaagt actcacctct ttcggagcat atttggttgc ggaaactccc
+     1501 attaagaacg actgagctgc tgtaaacaga cccaagaata tgaagttcgt cggtgtttgg
+     1561 cggcgcacac tttcgcagca agccatagac agcatggtta ctaacattac gccgagggca
+     1621 acccaaaaga gccacatgtt attcctggca aaggttttag tgccctcgtg gtatacaaac
+     1681 agggcaacag ctccaaaagt gacgattagt tgtccctaat gacacagaaa tgataactta
+     1741 ttgtacatgc cttctatgca gaattatcta aagctcacca ttagaatcag gtacacctta
+     1801 cgtatgaatc cgcgacggat gctttggtcg tcaaacgaga agttcttggg ctggctctcc
+     1861 ggatcatcgt aggctccgta gccgccagca gatggtggtg gttggataaa tcccggctgg
+     1921 ggagcataac ctcccggtgg aggcccctgt ccgtagggct gtggataggg ttgagcacct
+     1981 ccttgtgcat agggtgggta gccttgcggc ggtccttgag gtggatagcc gccctgaggt
+     2041 ggatatccac catatcctcc ctgcggggga ttaccgccgc catagttgta ctgctggttg
+     2101 ggatctgcga aataagacat ctcgttttag tttgtcatct aaaacggtgc taccaacgcg
+     2161 ttcgctacag caatctgtct accaagaact gtaaaatcta aatgaaacgc ttcgccgtga
+     2221 cgaagagatg cggtaaacca agaaacaatc tcgagcaaat atgtacatac aaccatgata
+     2281 agaagggaca agtacgatgt gtaaagagag agaggtaatg gaaatgaatc agctctgggc
+     2341 aattactgag cattcaacgg gtcgacaagc cccgggacga acaaaagcat gcgatcagaa
+     2401 aacgggtaag ctgtaacact cgcttagaag ttaagaagat tgaaccttgg tattggggat
+     2461 actggggaac actttgccag gacattctcg agggacttcg ctctgatttc tatgtaattc
+     2521 cgaaaccgct gtggagtaaa cttagatcca aaaagaatgt gttagtacgg cttgtcctta
+     2581 ttccactcac cttgcattgt ttcgttgttg ttttacctgc aaagacacga tgataagcaa
+     2641 tcattagcta atttaattag tgtctaagaa atgtgcacac ctttggtggc atgcaacttt
+     2701 aattatcaat caatttgcca ctatagtaat gcctgagaaa cttcggcacc gtttcgtttg
+     2761 ttgtggcccc catgacgtgt acctctcaag ctttcttgtg tgggttctct gaaaatagct
+     2821 ggggccattt atgaacctta cctacacgct gaactgcgag cttaagcgct ttaacgtagt
+     2881 cgcagctatt aaattagttc agccggagca ccaccagcgc aaataataca tacacagcag
+     2941 ctcggtgtag gaaaagtggt gactcacttt tggaaattgc cagcttctcg aaattaccgg
+     3001 gaaaccacac tattataatt ttctttgacg tgacctacta tcttcccatt attcaaatta
+     3061 tgctctttgg atgactaatt acctctggat tacgttgcta tttgatcaaa acaaacaatt
+     3121 gaatgttgtt tttctgaata tttgtttttt ttttttgcta taaattaaca gagatgtgcc
+     3181 tgctgactgc tatcggaacg cagctgtaat tatcgatggt ggtgtaacta atttttttag
+     3241 aaagtggtac atttacagac tacattaaac tcggcttaaa cattattgcg tttaaatttt
+     3301 atttgacacg taccacacta tggcgcattt tctgtaaatt atatactatc gtttatatat
+     3361 gtttaaaaca tacagagtat tgtaattaaa ctaagaatgc ttcaccagat gttgagaaat
+     3421 gctacagatg cttttgtttt ttaagcttct caactacggc acttctgtag attttcttat
+     3481 gctcattatt tttgagatta ttctgcactt actaactctt atactatact atactcctta
+     3541 tttactaata ttatttttca gcactagcta agcgcaactt aattcatagg atgctggaca
+     3601 tgtgacgtca caaaatcaga aatgcgccac cctgaagcac acatggaaca atcgatatat
+     3661 atcgatagcc gcgatagaaa tcctctagac tgcaccgcgc tggtggcatg tgcaatagta
+     3721 cacgacgctc gtgaaatcaa ttcgtttgtg tattaaaagg gcaagatcta gctggtaagt
+     3781 cgagtgcact cgaatgcacc attgaaataa ccaatagggg aagagacagg aagtgaatag
+     3841 aatcggtaaa tgatcagata aaagaccgca aagtttaggt tatgtgcgag ccgctagaca
+     3901 aagagtgttt ctctgtcccc ggaaatattt gtggacatat ggctattgga ggaggagact
+     3961 gggtgactga actgcagtcc ggaagacaat atcacttatt cgcaaatggg gcacttcatc
+     4021 agccaagtgc tatttataaa accatgacgc aacgcacaca atactcctcc tttttcgcct
+     4081 gttgctcgct tatcgaaact gtgtggtcta cgttctggtt ttgtgaccct cttgtaaaat
+     4141 atacaaccct cccttcctta cagccgtttt tgtgcattcc aagatggtcg aggacaaaga
+     4201 gcaagtggcc aacggggagc aggtctccaa gaagggagcc aaaaagctgg ccaaggccgc
+     4261 taaggtgaga atctttgttt tggggacgtg gcgttttgtt tttcttgaac ctctgataac
+     4321 agctttaatc tctatgtgta cagaaagccg aacaaaaagc ggagaacgcc tccaccgcgg
+     4381 cggccaataa cgctggtggc gattctgcgg aggatcacgc cgccggaaga tatggcctct
+     4441 cggaaatgat ccaatccaag gacaaacgca gtgaacgcaa ctttgtcccg gtttcggaac
+     4501 taagcggtca ggtgggcaaa ggactggtct gggtgcgagg acgcgtccac acttcgagag
+     4561 ccaagggaaa gcagtgcttc ctcatcctgc gccagcagag cagcacggtg cagtgcatcc
+     4621 tggctgtcgg tgatgttatc tccaaacaga tggtcaaatt tgcgggaaag taagttataa
+     4681 atattccctc gtatatctta agtttatctt aagagccgta acccaaaaaa gcacaatatc
+     4741 gaatttgaat tgcgcaggcc atatagatat tttcatcata ctttgataag atatcgtgaa
+     4801 atcaattaaa ggtttatgaa atgataaaca ttgcttagaa tttttgttgt tgcaaattta
+     4861 ataattcatt taataattca aaaacgtctt tattttttca gtatccctaa ggagagcatt
+     4921 attgatatcc aggccaagcc agtggcggtg tctagcaaga ttgaatcctg cacagagcag
+     4981 tcgctggaat tgtccgtcga gcagatattc gtaatatccc aggccaaggc acagttgcca
+     5041 ttgcaaatcg aggatgcatc gcgtcccgag aacgccgatg atgcggaagg tctgaatatt
+     5101 cgcgtgaacc aggacacgcg cttggacaac cgagtgctcg acctgaggac cccggcaaat
+     5161 caggccattt tccgactgga agccggagta tgtcgcctgt tccgcgatat tctcactgag
+     5221 cagggcttca cagagattca cacgccgaag atcatttcag cggccagtga gggaggcgcc
+     5281 aatgtgttca ccgtgagcta cttcaaggat tcagcctatc tggcgcagtc gccgcagctg
+     5341 tacaagcaga tggccatcgc cgccgatttt gacaaggtct ataccgtagg agccgtgttc
+     5401 cgtgcagagg attcgaacac tcatcggcat ttgaccgagt tcgtaggcct tgatctggaa
+     5461 atggccttta agtaccacta ccacgaggtg ctgcacacga ttggcaacac gtttacgtcc
+     5521 attttcaagg gactgcgtga taagtacgct aaggaaatcg aatctgtagg ccagcagtac
+     5581 aaggtggatg ccttcaagtt cctggagcca ccactgatcc tccagttcgc cgatggcgtg
+     5641 gccatgttgc gcgaggctgg tgtggagacc ggcgacgagg aggatctgtc tacgcccaac
+     5701 gaaaagctgt tgggtcgcct ggtcaaggcc aagtacgaca ctgacttcta catccttgac
+     5761 aagttcccgt tagcgatacg gcccttctac acgatgcctg atccaaacaa tccggtctac
+     5821 tccaactctt acgatatgtt catgcgcggc gaggagatcc tgtccggcgc gcagcgtatc
+     5881 cacgatcccg agtacttaat cgaacgagcc aagcaccatg gcattggtga gtacccccta
+     5941 cacgtagtaa ataactcgta aggtcagctt agtcacaaga tctctcggta aacaatgata
+     6001 agactgcaat aagagaataa tataaatgca tagctcaagt gcttatataa gactgtaacc
+     6061 catttcagat aagaagttga aacttatcta ctctattaat acttaatatt aacgccgtat
+     6121 atatttgttt tctagatacc tccaagattg cggcgtacat cgagtccttc cgctatggat
+     6181 gtcctccaca tgctggtggt ggcattggaa tggagcgtgt ggtgatgctg tatctgggat
+     6241 tggacaacat ccgcaagact tccatgttcc cgcgcgatcc caaacgatta acgccttaag
+     6301 cacgatagac tcaaacaacg tactctttag atttgaatac aattcgatga aacaattgtt
+     6361 ttactttccc tgtgactttc caagcattca gttcttttta tttttacgcc aaacccaatc
+     6421 gtgagtgttt tatccttctt ctcaagacta acatgctgca aagttgttaa acaacgagaa
+     6481 aaatgtacgg gaagactgcc tagagtcaaa tttatttgga aactcgtaag aaataaatac
+     6541 ttgcgcgtat gttttgtact ttaataattg cttttaatat tttggttggt tatttttaag
+     6601 tgggtaaaat atataagcta acgtgtagct agaatattat atttttgttg catactttta
+     6661 gggtctgtag aaaggccaca tttgttctca tagcttatca atatgcacct ggtcaaagag
+     6721 ttttcttaat gttttattca aaaggttgaa accagaccaa ttttattaaa agccttaagt
+     6781 aaaaacagtt cactactttt gatttgtcta attggattgt agtataagag attaatattc
+     6841 tcatcatttt caaaataaat aaaagatatt attattatct ggcattagaa tttagaaatt
+     6901 tagtttttga tgcaggctgt gtaataacca ttatagtttt cttggtgacc atctataaga
+     6961 ctgactacct taactacttt gagaatccct taaataatca ccgctcgaag tcccgtcggc
+     7021 catgtcttct ttatctggaa acttctttct caggttaaac tcccacataa acatggtttt
+     7081 ttttctagct ttctccgtag ttatagaagt ttcccacaac attttatgca acattgctta
+     7141 aacaactttc tgcgtattaa aacaaatttc gatatttagc caaatcggta taaccagtaa
+     7201 tcaaatcata ttagctgtca ctaaaaccaa actttgtgtt ccgactttcc tggaatttgt
+     7261 aaatgaaaac ataagtttag atcctatatg ctctgtagta gggctatttt ccatgccgac
+     7321 ttgatgtatt ccatttttat attatccaca gatttttcag ctttttttac acgttcctat
+     7381 cagaaatcta acaattaaag gtgtagtaga ccgtctttca cttataagca tccacacctt
+     7441 gtcaacaatc cgcggcgaaa tgaaggcgaa tgaacagcac aataaattgt attcatttgc
+     7501 aatcagatta ttatcaatac ggaaacttcg cggttgagga gggcttgggg cttggaaggg
+     7561 gactggaaaa caaggattgc gggggcactg caaacactgt tgacacagtt ggcgcatact
+     7621 tttcattgcg gaaaggcaag gaaaggaaca aaaggacgaa gtagaaggcc ccggatgaat
+     7681 gcgaattcct ttcaatctgt ttgtcgaact ttaaaatcag agagaaacag caggagtttc
+     7741 gtctacttga ggacacaatt gagacgcact ccattttatt ttcacaccga tgtggcatcg
+     7801 ttagttggaa acctggaaac aacaatacaa cgctgaatgc ggcagcaatc aagtgggcgg
+     7861 tgcttggcaa ctgcagcaca ctagttgtcc cgctcccacc gcggtccaat gactgccgtg
+     7921 cgagagagat ggcccgatac aagaaattgc cattttgttt tcaatgccgc ggcgactgcg
+     7981 ctgccgtcgc gctgcccgca aatgcattgg atttaccgct ccttttgcca gtttgttttt
+     8041 tctcttccga ttgagcggca gccggagctc tccgtgtttt tctctcaccg ccgcgcggga
+     8101 ttttcgattt cggattttcg atttcagcgt aaacgagaat atcgtaaaat taaaacgaaa
+     8161 caaaaccaaa atcctagtga gtgatcgcgg caagtgcagt tcatttgttt tccaagtgcc
+     8221 acatcgcaaa gcagaataat aattatagaa atagagattt ccgcggatgc tgcaattgcc
+     8281 aaaatagtgc cgttctccat ctcattttcg ctcgctggct atcgccctct ctctcactcg
+     8341 ctctcgcaca atcgggccgc caagaattta tggaattcgg cattttgtgg atttagcgaa
+     8401 aatattttca ttgagtgcgc cgaccaaatg tttgctgctc gttttcggtt aaaaataatc
+     8461 gcagaagccg ctgcgccaaa atctcaagaa ttcacgtgcg aattccccag cgcgtatcac
+     8521 tttaattact attcaaatta acaacaacaa caaaacgatc aaacgaaaat taagtcaagt
+     8581 tttaccttgt caagagatgt gaaattgttg aatattttgc aaaaagtgca ctgtaacgag
+     8641 aattgagttg atttacgcaa gcaacactga acatcttatt ggattacact aaaaacattc
+     8701 aagtggtaag tgcgggttcg ataaatgaaa tgtcaaattg gaccgcagtc gttttccttc
+     8761 tggtgtcatt ataattatca taatttgcct aatttatcga tttgcattta attttattat
+     8821 gcatattagg ctaaacgtct gaaattgatg tttgtacctt acatcataag gttaatttat
+     8881 taattccact taattggtta tattgttcct atacttttta attgaattgt aaaaaggtac
+     8941 aacgtgaaaa gctctgaaca gttaaggatt aaaaaaaggt tgttaaatag cttaagtttt
+     9001 ttgtaacggg aacattatgg agctatagtt attttccaat taaattggga taatatgtaa
+     9061 tagcagtagt agaagcacag atataattta taggattatt cattaaatta cgaatatttt
+     9121 ttgtgacaga tagcttttaa aatgtaaatt ttgtgttttc atgtcccgac ggaggtttat
+     9181 ttaaaaatga ttcctattgc cgtcggacct tagctatatt ttcatttcaa tagcttttac
+     9241 tgtgttcaat gcaatagttt gttcaacgtt tggcattcgc tgctgctgtt attgtatcaa
+     9301 tcaatagttg caacgattat ttatttccat tctacaaaaa agcttagcat attaatttgc
+     9361 gacctaattc aagatatttc taaaagctaa agccaagaat taaagaatta acttcaaaga
+     9421 cttttaaagt aattccttat tttccgacgg atatctttaa caagttttaa ttcacttcgt
+     9481 ctataaaacc gtttatgtgc cagtttattg gtttttattt tgatcataat tactttagct
+     9541 gtgaaagcat tcgtttgtgg ttttctatag ccattttgaa acttgatgat gctttgttta
+     9601 catgcaattg cttttcaaca gacatttacg gttcaaatag tcacatcatt aaagtcggtt
+     9661 ttaacataaa tgccagaaat tggctcatca gctttgaatt tcttaccaca attagcaaat
+     9721 tgttaatgcc ttctcctgca cttttctcca ttttccttcc agttggcaat tcttcgtcgg
+     9781 aaacgcggat gagaaacgaa attgacgttc caacgccaaa gggaaaaaaa aactgaaaaa
+     9841 atagaaaaca acgactaaca gcaatcaaca atgtggaaat gataattgca attgcctgca
+     9901 caagcaaaca aagaagaaag aagcaagtga agaaagtcga agagcgacga ggggaggaaa
+     9961 ctgagtcgaa aagaaaagga aattacccac gaacgggaat ggcaaatgca tagaaagaag
+    10021 tttgcgaaaa acaacaaaaa acgtaaacaa aaaacagaca aaaagcaatt atagctgctg
+    10081 atacaaacgc gatggtgttt tacaatatgt aaatataatt agccgagcgg agttttcatt
+    10141 ccaggaattt tgccagccaa caaaagaaat aaatactaca actgctgcag aaaaaataca
+    10201 acaaaaacaa caaaacacgc cttgacttga aagccggttt tataattact ccaagtttta
+    10261 gcccccttcc ctccccgcgc gctctctatc tatatatcta tctccctctc ttcagagaga
+    10321 gcattcaatt tcaaaccccc gatacgatta cgaatccaat tggaaccacg cgtattggca
+    10381 tcacaattcc ctccccgctc aagtgacaat accaatttaa ctaccatcca tcgctaaacc
+    10441 gcaaaagcag tgagccagtg tgagtgccag tgccagtgcc agtgtgtgtg tggcagtgag
+    10501 tggcagttgc agttgcaagt gcgcttgcca ctgcgacaat ggcagtgtcc tgccccgaag
+    10561 ttatgtacgg tgcctactat ccatatctgt acgggcgcgc tggaacaagt cgatcgttct
+    10621 accagtatga gagggtgagt accgcaaacc tatcgattcg attcgatgcg attcgatttt
+    10681 gccttccgaa ctttgaatat ttggccgggt aatcaggcca aaacaactgc attcggctaa
+    10741 ctcctcgagc gaacaaaatt gctttcaaag caatattact ttaaaaacat cgcattttaa
+    10801 agattagatt gatttgactt ggcatgtact tggcttaaac tccaagcagt cagtaaaata
+    10861 tttataatta acacttttac aagcagaaga agaatagtta tttagtaacc tttttgaacg
+    10921 taggctgctt ttaaaaaatg gatattaaac ttatagtcgg aattcaatag caccattaaa
+    10981 taaatattga tagtcacgtg gatgtggtca caaaaaatat ggaattttag tcagacaagt
+    11041 tttacttgtt cagttcaata gttaatgctc gaaaaatagt ttatcgttta ttagattggt
+    11101 ttattattgg tttgtttaca ctcaggaata ccattcaatt aatcaaaatc tcagcgaaat
+    11161 ctctgtagtg gcaatcacaa tttctctttg cataagtaat aaattaagga ttttaaatta
+    11221 gaaatttgaa ataatttatg aagaaaaaga attaaataga tagtaaaaca acaaaggtta
+    11281 actaacagaa atagcaacaa tttgagatta tttaacttat tagatctatt aagtactaat
+    11341 tactcactaa tttcataaaa tatcagagaa ataagctaaa accgagcagc aaaagtgttg
+    11401 gtgaccaaat ttgtatcttg gacatttttg gctagcgaat ttttgagttt aaggcgttgc
+    11461 ggtttttgtg gctaacgcac gtagcaaggt gttaaaaatt tccaaactta caattgtcta
+    11521 tactttttgt aagtccaagt taactgtttt ttttttaggt aataccattg cttgaaatga
+    11581 taagaaatct cgtctgtaaa acagaaggaa ttgaataact tgcttagaat tttaattagt
+    11641 caaagctaaa tagggaaatt ttcagttaca caaaacaact tttaaaaagg aactagatga
+    11701 tttagtacaa taagagttaa aagaagcagc gttcttaaat acttatatct tgtatttctt
+    11761 gcgtttatgc tcacatttgt aattgcaaaa aataaattta aggagtgaag gctctttgtg
+    11821 aaagcgcaat tcaaaactgg aatcccattt gtgcaacgca agtttctgtt ggccagcaca
+    11881 aagtggctcg ctttgcataa acacagagtg gccataagga aaatcagaaa acgttttgtt
+    11941 aagactcttg ttcgttcgtc tccttttaac caaacgagcg tacgaagaac aagttggaga
+    12001 agcactttaa gaagggaaag caccgaggat gagtcacttg gccaccgctg attgatggat
+    12061 acctctttgc acttttggcc aaggccaacc gaaagctact gtgttgttgg ctgcgtcaat
+    12121 ttgtttgaac gggcttggag cctgaataat tagacgcttc taacaaatca taagaattca
+    12181 cgcagaacgc aaatcgattt gggaaacccg aaacaataaa gaaccgaaaa aaagagaagt
+    12241 tgccaaacta aaggggcaac atttcaagga attccgcaac tcaatgttgg ctttgtttcg
+    12301 cctctcccgc tttttgctaa cattgatttc gaagatttcg ctgtgatttc tgtgacaagt
+    12361 acagaaaagt tctcacgatc gctggtttcc agtgtccagt ttcgagggcc cagaactcag
+    12421 gccgaccatg gtcaaaaggc ggctggcagt gcggccaata tccatgaggc agttgccgtt
+    12481 gctgctgccg ctggggcaca aagaaattct tgtgtcgcaa gttccaatta tacaaggccg
+    12541 cggcaccaaa tcgaaattgg ccttttatgt aagtaaccga tacgacacga ttctgattct
+    12601 atgcttttgc atgcccataa agagggaccg cgataaaccc gcctggatat tgcggcttcg
+    12661 gttgctcctt tctgctcctt tctgcacctc cgccatggaa agccaatcgc agattgagtc
+    12721 agcagctttg gctactcagc tggatgaccg gtttattttg tcccacaaac gcacaatcct
+    12781 cgtccgccct ttcgacactt tggccagcca gccagccagc cagtcccgaa acctaaagtt
+    12841 aaactaaaac aaataaacaa accaaaaacc ttggtccgct cggttaattt attgtgtgta
+    12901 tcgccattag ttcttgccga tcttgcagct ctccccgcct acaacgccat aacataacca
+    12961 taccgattcg atccttggga ccttttgtca accgatcgca gataaaccag ggagctgaat
+    13021 tcaaaaaaca aagaacgaat gaaaaaaaaa agcgaaaagt tttggggctc cgaaattttg
+    13081 tcgctggttc gtctggcgat tcccggtgat ttatgccgtg tgatcgaagg tctgactgct
+    13141 cggcataacc gaaatatcgc ctgcagctaa taacactgca acagatacgg gatacaagta
+    13201 caccgggaaa atgatacgtt gctcagatag gttaaattaa ttaatggtca gggtgtctac
+    13261 attgaattga acatgataat tactgcactt atgaccttta tatgaaacta tctcttttat
+    13321 tacgccaatt tcttttcatt tttcttgatt atctttacaa aacttcgtac atcatttaat
+    13381 agaattgtta tgcatagcaa ccataaccat aaccataaac aatgtttaaa cactagaaga
+    13441 tacctgtgaa tcagcgcttt ttgacatttc aatttaatca ctcttcacag ctttgtttaa
+    13501 aaaattcaag atttttcttt ctgtgtgccg attgccctgc agatacatct gccgatgcgt
+    13561 ttgcgaccgt gcgttttgta tctgtatctg ggcattgttt cgcctacgct actgcacttg
+    13621 gtattcgcga ttcgggatcc gcaaccggag gattccgccc tccaatttgg actgtcgtcg
+    13681 ctgatagtgt tggccgataa ggcggaacgc attgattatg tgcttaagcc aggtgacaga
+    13741 tggagatact tgatctgcca catatttgcg gcaagtgcct gtgatgctgc agcttttgcc
+    13801 gcagctgtat ctcaatcaat ttgtatctgt atctattagc aaaaatcttt cggctgactc
+    13861 agcgctttcg tctaattaag tggcatgcct cctaacgggc cggccagctg ttgtatctac
+    13921 cagatacttg gctcgtaaat cagggctgct gtccatggcc gcgttgcact cttcttgaaa
+    13981 tggttcgtgc ccggttaacc cattattaac ccttagacac gatcataatt ggcatgcgcc
+    14041 tacgaaatgg agcaggggtc gtggttcgca ccgctcgact ggaagttaat gcttaaattt
+    14101 agaacgattt tcggctgcaa atgtggcata gcagggcggg ggcaggggca gggcaacgat
+    14161 tgccatgggg ttatcggcta gggagccact aatgggctca ttaggagggg agacggtcga
+    14221 aggtgttgct cgtaaatcgt cgccagcgcc gcattatgtt tgacagtccg ctaagcagaa
+    14281 gattgcggcg tgattatcgc cttctggccg ctctcctatt tcagtttcag ttcacctcct
+    14341 cctcaaactc gaacctcccc cttttcctca gcccatttac ccatttggag cggtgcaacc
+    14401 ttggcccgag tccgtgataa tatgcaccaa acgctcgtaa atttaatggc ctcactcgcg
+    14461 ttttccatca acataaattt tcttattgtg tcattttcaa tttgctgcaa cgcgtctcat
+    14521 aactcattac tcgcctgtcg ctggcctttc gggaatctgc cgggaatatc cacttatgaa
+    14581 tccagaaata tagtttcaaa ggggagcgtg gttaaagaag ctgttcaaaa tacaatatag
+    14641 tttaatacta ttagtggaaa gatttgaatt caaaatgaaa acactatctt cgataagaat
+    14701 cactactgtt atatgataat gataatgata aaaaactgat tccttaccaa tgtttcaaat
+    14761 gacgcatact taaagcctct atcacataag caagattccc tcctgattag atcttgaaat
+    14821 gtaatccaac aagtaaatta ataatttggt acattttcag ttcaaccagg atttgtactc
+    14881 ctcctcgggc gtcaacttgg ccgcctcatc gagtgcctcg ggcagctccc actcgccctg
+    14941 cagccccatc ctgccgccat cggtgagcgc aaatgccgct gcggcagtgg cagcggcggc
+    15001 ccacaatagt gcagcggcgg cagtggcggt cgcagcgaat caggccagct cctccggcgg
+    15061 aatcggaggc ggtggactcg gcggcctggg aggactgggc ggcggaccgg cgagcggact
+    15121 gcttggcagc aatgtggtgc ccgggagcag tagtgtcggg agcgtggggc tgggaatgag
+    15181 tccggtgctg agcggagcgg cgggacactc gctgcacagt tcgcacagga cgcacgcaca
+    15241 ctccctcgcc cacgcacaca cgcacccgca ctcgcacaca cacacgcata cgcatcaaac
+    15301 caaagaagag gacctcatcg tgccgcgcag cgaagctgaa ggtgagcaag gatcacttgg
+    15361 gtacatccct aatgatggcg atctagatcc caaaaggaaa ctttcaaata gtcattgttt
+    15421 gaaattatct gaattgcaag ttgttgttta gttttagctt tactataact aaaaacacga
+    15481 ctgtcattaa ttagttactg agtaaagaga acaatcattt taaaatagat atgatgattt
+    15541 gtttaacttt agagatcgtt tccatttagc ccttccacta attaatacat tagtgtctca
+    15601 attagtacat tataaagttc agctccaaag gtgaacatag tagcaaaagt attgctacca
+    15661 aaattaaagt atagtcgcta taaatgtaat caataattca tcagctaaac actttgttta
+    15721 cacgcgttcg ttcgaaacgc tttaaagcaa tgaattttat tagttttcat gtgcgtgttc
+    15781 attgatattg tcaatgtcaa tgtttgcata acatttattt tttggcagca cacggaaaat
+    15841 tcatgcaagt gaaaaagccc atagtgggga agagcgcgat agtcatcgca cactcgtagc
+    15901 taattaattt gaaaattctt gaaatttctg acgaagcact cgcattccaa accagttagc
+    15961 attcaataaa ttatatcata ttttcccgtt ggcgaattcg ccattactta gcgattattt
+    16021 aatagttttt ccgcttgcct tttctctcgc cctgtctgat ttcccagcac gcctggtggg
+    16081 ctcccaacaa catcagcatc ataatgaatc atcctgctcc tccggtccgg actccccgcg
+    16141 ccacgcccac tcgcacagcc atccgctgca cggtggcggc ggagcgacgg gcggtccatc
+    16201 ttccgcgggt ggtacgggct cggggggcgg cgacggaggc ggcacggggg caatacccaa
+    16261 gaatctgcca gcactggaga cgccgatggg cagcggaggc ggcggattgg ccggcagtgg
+    16321 ccagggacag gctcaatatc tatcggcctc ctgcgttgtg ttcaccaact actcgggcga
+    16381 cacggccagc caggtggacg agcacttttc ccgcgccctc aactacaaca acaaggattc
+    16441 taaaggtaag ttatctatca gagttaagtc gtacaaactt ttctttgatt atttctccat
+    16501 tttaaactat cataatctac ataggctttc tcaagcattt aaaatataaa ctggtatttg
+    16561 tgttagtgca ggaggataat cagcatgctt accatgctcc cctttccccc gtttttgact
+    16621 catttgtggc tccagtgagt tgtgatcaaa gaaccgctcg tgtcatgtac ttgtcccggc
+    16681 tgtcagtttg cgtgtttgcc tcgatttgcg gcagtgtccc acttgtcccc caaatggggg
+    16741 cataattagg tgaaaaatga gccagcagtt ccagcaaagt tattaaaatg ttctcggaaa
+    16801 atttacaaca ggcaaattat gcctttcgga atgcattagt gtgtgggaaa gaatgaggta
+    16861 gctacatatc taacagagaa aaatgtaaaa tttacaattt gtgaagtggt tttaatgtct
+    16921 gaagcacttc ttcttgtgct tccccaaact caaatgatga tgaccttgta tcgatgttga
+    16981 ataatgtcgg ttaatgtgtg taaactttgg gagcgtgagt atatggttgg gaaagtattt
+    17041 agcctttcta aaaagatgaa caagttttca caacaaatcg atatgccttt aatctttgaa
+    17101 aagttcaaaa ttaatgcttt gttgtgtgga tatacctaaa gttggcaatg gacatgtatt
+    17161 taaatcgatt aaaaatgtgt cttaaattta aaaattgcat taagatgctc gcctttaatc
+    17221 caacattttc gttcgaaaac tatgcaaaat atttaaattt tcgcctccac tcattgtcag
+    17281 ccattcgttt atgggataaa aacactttag gatggcactt tgttttatcc cctccacaag
+    17341 tttgtgaaat gtctgtgaat gtgaatgtga atgtgaatgt gtatgcgaac actctctcac
+    17401 aagcacacac caaaaacggg cgcacaataa aacaaataaa tcaagttgcc acttgccact
+    17461 cgcttgttct ttcgatttca aaattaatta cctcctttaa tgaagataaa cgtttcgttt
+    17521 gttcatgcct gtctgttttg cctgtccgtc gtctatctgc tgcacactat gtgcacggat
+    17581 caacgtttat atatatatgc atatatatgt acatatgtat gtatgtatgt acaaaaatac
+    17641 cccaacatgt gcgttgttta ttttttgcgt ctcactcgat tttgttttta attttaattg
+    17701 ccctgttgca gttttgttca gccataacga acgaagcctt gtcaagtgaa gattttcatt
+    17761 atgatcatct atgtatgctg ctctgctaac tggtgtccat tgctcaatca atctattatc
+    17821 ctcgcatttg aatgccgagc aggtgttggc tggcgatgcc tcttaatgtt aatgtttcgt
+    17881 acgtgcaccg cccatggggg cgattatcct gattccgccc cctcgattgg agcactttgt
+    17941 ggtatatttc tttgccacac cgccaattgc agttaaacct gggattttat tgagtttctg
+    18001 tggctgccat tgcctcgatt ttccccctcc gctttgccca atttccgtct gctttgagga
+    18061 aatgccacca ctttgtgcga aaattcagtt tccattcaat tcccccccat tcgttatgcg
+    18121 ataattggaa attttccaca ggctgcttaa caacgaattt acagtgattg gttcgccaaa
+    18181 atttaaatca aagccagtaa agtttcctgt agccaattaa ctggccaaca aataagcaaa
+    18241 tactaaatgc tgctcgaaaa taactgggtt gaatgcttat taatgcaaat taatatttct
+    18301 tgagatatca atttttattt atgatttaga taattaagca ctccctttaa agtataggta
+    18361 taagcatgag gatagcttat caaaactttt gtagtcaaga aattcctatc tataacttca
+    18421 aattatttaa aaaccaaata tttaagttgt caccaaatgc agtatggtga ttcgattcgg
+    18481 gaaaattctt attattaggg tgacgttggc attttttcgc caactgccgc acagtggcac
+    18541 acattgccca ttttagaact gccccttaaa atacgtaaaa tgcgaatggg ttttgtttaa
+    18601 atttgtttac ttttacgcct cttgtttttc cccgtttttt ttttgttgtc tgcttaaggt
+    18661 atttaaagtt cattttggtc atttgtctat ttgagagcag cgcgcacaca gttgaacatt
+    18721 tacatttgtg cgcttaaaac tattcaacat ttatatacat tttttttcga aatgcaatgc
+    18781 gccgcatcta tatgtatgtg ctatatgccc agatgtatat atatatgtat atatgtatat
+    18841 gttgtatata tcgctagttg gaatgtgcta tgaaatgtcg ccggaatgcg atgcggtcga
+    18901 tgctgatgtt gttgctttgg gtgccagttg ttgttgctgt tgtcggacgg tggcaatgcc
+    18961 gaatgccgca tagattcctc attacgattt taaaatgcat ttcaattaac tgctccgcac
+    19021 agtgaagcca aacaaaacga accgaaccga atcgtatcga accgaaccga accgcaccga
+    19081 aagagggcat cgcagaagat gacgagatag cagcggtagg aacggcacgc ttgcactttc
+    19141 ctccattttc ccccgttttc ccccgtttcc cgatccgttg cgttagcgtt tctcgatcaa
+    19201 aaaatacccg attcatcagg tagcctttcg tattattttc attttgtttt tctgccgcga
+    19261 ggagcattta attagatgcc caaagaattc gatttaaaat tccttggcac ccgctgcagg
+    19321 caggagaacc gtcttttcga aatacaaaac agaaaccgaa accgaaacag atagagatac
+    19381 agatacattt gaagatacgc ttgtagatac ggatacaagt gcaaggacac acggaaaaat
+    19441 attatgctct aatggaagtt agaacaattt agatttcact tcaataacaa aataaaaact
+    19501 taatacaaaa attatattaa ttatatccta gacaagtaat aaacttaaaa aaatagttta
+    19561 aagcatcgat tgtactttgt cgtttctaat tgaaactcac tatagtttaa gcaagataaa
+    19621 actgctgttg agtcgatttt agtttgaata ctccatactt gatttagaat cttcatagag
+    19681 gattaggata gttttctctg tgcaggaccg cactatgcgt caacgctggc gatcgaacgt
+    19741 tatcgggtca taaatcgcca cgctctcttc attaggccaa aaggtgaaag gtggggacag
+    19801 gtagtgcggc tttcgctttt gaagccgctg gctgaaagtg aaatgctaac tgaaggagct
+    19861 gcagaggaaa tatctttggc agtctgcttg tttgcacatt aatgggaatt ccacggcctc
+    19921 agctgagcga gtgagtgaat ggcaatggga tgatgacgac ttctggcttc tggtacggga
+    19981 aaaaaaaggc acgcggcatg gcatcccgta tccagtattc agtatcccag ccgcaccagc
+    20041 accatcatca tccgcatcct catcctcatc ctcattctca tcgtcatcag catgcatggc
+    20101 acactcgcca acgtgccggc caaagttgtc gaatcgcgac ggcagccaag cacaaacatt
+    20161 acacatcccc acaagcacat ccacatccac atcctccgac ctcgtcctcg tccgcatcct
+    20221 caaaactcct ctccagttgt tggatatttt tctctcgaat cgagtttgga atgttgtcaa
+    20281 cgcaaatgca agcctatgca agtttttggt atctcctgcc gctcaattgc agttgctatt
+    20341 tttgggcccc cggtctccgg agggagctcc attacacata atggagatgt cttgctcccg
+    20401 gctcctgctc cttctgcatc ttgttggcgg cgtcgcgcga tttcataaac gcgtagattt
+    20461 acaaccattt aatacaagtg atgatcctga acaacagcgc gacaacgagc acgaacgaca
+    20521 accgaaaaca ttccgctcag ttatttgcaa caggccatgg cgccgccacc gaggcggaga
+    20581 ttcagactcc gcggagaggc cccaaccaat cccgtaaccg agccacagag tcccccaaga
+    20641 ctcgttcatc tgccgacttg ccagttaatc attgccgcaa gtgaatggaa attgcaccga
+    20701 gaggcaaaag catagcacct ccttcgagta tatttgctgg cgaaaattca atgaaaaaga
+    20761 tacatatcac cttcttcagc tatctattta tctatataaa agatggttcc ttttactagt
+    20821 tacataaatt gtttgtacaa atcgatgatt gtagtggtat cttaagatac gtgcaacact
+    20881 gaaacagcat aggttgtgta caacaccgtg taattttagt atttgtttaa taacaaacta
+    20941 aagtaaggaa atgtgaaaga aacaaacata tgttaattac tttattttac ttacctgcta
+    21001 atagatttta ttcgattttc ctccactgtt tttgctccat tgtcttgata aatttagcac
+    21061 tatttaacaa taacttgtga agcattatca ttgtacatac cctcatttgg caattgcaga
+    21121 gagcagcagc ccgatgtcga atcgaaattt cccaccgtcg ttctggaaca gcaattacgt
+    21181 gcaccccata cccgcgccca cacaccacca ggtgagcacc catccaagtc ccataaccaa
+    21241 taacaatgcc actaccaagt ggtcagtagc cagtcgctag ttgccgattg ctggcggtac
+    21301 gtgaggcaat tacgactgga aggagcctca agatcctgat gctcctccac atccatgcta
+    21361 aataagttgt aatccaatcg gatatctgct tgtaggttag cgacttgtat ggcaccgcga
+    21421 cggacaccgg ctacgccacc gatccgtggg tgccgcatgc ggcccactat ggttcctatg
+    21481 cccacgcagc gcacgcccat gcggcccacg cccacgccta ccaccacaac atggcccagt
+    21541 acggcagtct cctcaggctg ccccagcagt acgccagcca cggttccagg tgagtcgatc
+    21601 gcccgatcgg gcatcctaca gaccacgtcc tgacctctcg ccggcttctc gtgtcttaca
+    21661 ggctgcacca cgaccagcag acggcccacg ccctggagta ctccagctat cccacaatgg
+    21721 caggtgagcc tatgagcagg gttttagttt tagtacaact atcgctttga taaagaaaca
+    21781 attcaaaggg gggatatagt taaaaaggga caaatataat tgttaagcgc tgatatatac
+    21841 atcacatttt aaaatgatat gtatgctcat tagtatagtt caatcataag aaagtttgtt
+    21901 ttaacgttct tcagtatctt gtgcttataa cacttaatag aaaggataac ttgttagcct
+    21961 ttctgtttaa aaatacttac tatatatata ttaggttaaa tcatagatat ataaagcaga
+    22021 tatctcaaag caacagatca agttttctta tacacccatc ctatttattt ttcaggcctg
+    22081 gaagcgcagg tggcgcaagt acaggaatcg tcgaaggatc tttactggtt ctaaacgcca
+    22141 cctggcgatg gagatcgccg atgtccttcg gcgagtgtat aaaccttgtc ctggaagatc
+    22201 taaggacacc ccggatcgaa tacaatgtgc gactttgggt cgggattttg agagcgcttc
+    22261 ttaagcaaaa ctgcagtgtc tgtgtttctg tgtgagcaaa acaataacaa acgcaaagga
+    22321 ttttgaaatt taatttaatt ttaccataat gtttaacgtt aaactataat tcgtaagctt
+    22381 aaaaacaact tgtaaacaaa cgatttttcg cgcattcgag accatttttt tcggcgtaat
+    22441 ttgattttgt aagtttagca tcccatatca gcaatttaga cacacataca ataatgacta
+    22501 tatacactat atatatataa atatacacat aaatatataa tggtattcgt aatcagcgtt
+    22561 ggtaacgttt aataatcaat atttcttgta tagttaacgc gaactttgac ataaacttaa
+    22621 agcaacaaca aagttagaat ttattttgtt taaacttcga tttttgcaaa cttcaacaaa
+    22681 ctaggataac gaaaatcaaa ttgagaaaaa agcaaagcag aaaacccaat aaaaaaaaag
+    22741 ataaataaaa taaaaaaaaa acacaatttg aatacaatca ataaactgag tgtgcgtttc
+    22801 taagggagcg gttcgataaa ggtaagaatt taagagttga tataaacttt aattggttta
+    22861 tgtgccctct cgctaatgat ttcattccga ttaaccaacg aaacacaatc agataagcag
+    22921 tcaaatttca taatcgtcga ctttgaatgc tttccacgcc atttagccag gcgccttatt
+    22981 aatctcgggc tatttatcat tcaaaacgac ccagcacgac ccgaatcaaa acaaaaacgt
+    23041 aacgaaacga aacgaaatga aatgaaatcc ccaaaaggaa tcttgcataa ttaatgaaaa
+    23101 acacaaatct gagatagtag ccaagtggtg gcacaagtca taaataagac gccaggctcc
+    23161 tgtgacttct ggcattgcaa cttgcaaccg tgactttgtc cgggaacagt gactgccctt
+    23221 cctcgcccca tttctcactc ttttcaaccg gatggacgag cttgtgtgct attatacaat
+    23281 gaacggggaa ttggggcggg cagcacatac tattgacttt caacgactta acgcacagtt
+    23341 ggccaaagca actcaccttc gatcggcgga gcaggaacag ttggtccaga acgccgatcc
+    23401 tgctcatgaa ttaaagaaat gaaacaaacg cgcgacatgc tcccgctcca tattctgttg
+    23461 tttttttttt cagttttttt tttttttttt tggtttgtac cccggtgtac gcaacaaatt
+    23521 tattactgat cgatgaacca ctaacttggt ggcttcacta ctgctccgag tccggttgtg
+    23581 ggtccattat tttagcataa gaattccata attcgcggta aactgcgctt ggccgcttgg
+    23641 gaaaggggag gccatccaca aggtgttcaa caattcgcca aatgcgtttt gctctgggtt
+    23701 tatcgctttt taataacttc ccttcgcaac tcattcaatt cacctctttt tgctggccct
+    23761 tctccgtttc caggtttcct tttttttttt tttggcccaa acaatgttcc tgctgctgtt
+    23821 gtcactcaag tttcgccatc gggacagatg gttccgtttg gcggctctac ttccttcctt
+    23881 ttctcaactt tcgactctgg tcggtagcat ttgttgttgt ttatggccgc attgtgtgtt
+    23941 aatgagttca gctaaatgtt ttcgatccaa gggataagta gtactttgca gtcttgtatc
+    24001 tataaggttg cggattgaaa gtgcaaaaag caaacgattt gagatcaaaa acttcggcct
+    24061 aaatattgca tttaatttag gcattagaag gcttaattta aatgtatctt aaaagcagtg
+    24121 gatgttttta cataattact agatttacga gagcaatatt catgaaattc caattttaaa
+    24181 tggaggattt gaaaggttat ctataaaata aggagctgat gcgttaaaag tccacgattt
+    24241 ccaattcggt gggatctatt tctatttact tctcaagtag tgaatattat ttagtcagct
+    24301 ccgtcaaaag tggcacgtcc aacaaaatga ataccccagt ttcctcgtag gttattggac
+    24361 caagtgtcaa caagaccgtt tgccacatta aatggaaatt aattttaccc cagataaaca
+    24421 agaatcggag gctaacaaat ttccaatttg gtattcggtt aagttatgtt aacaaaaggc
+    24481 gcgcaaccaa agttggataa taaataagat gggaaaacaa taataaaaga gcgaagtgtg
+    24541 gcacgtgggt atttttggag gcccccattt gaaggagcca ccgttcgatg ggggaacttt
+    24601 gactccactc ggcgacactt tatgaccagc gaatgtgcgt gactggccgc aaagtataaa
+    24661 taaaaacatt ttcccagcgt ctttggggag aagatatcgc gccgcctccg ctggagaaat
+    24721 cgcggaacaa atggatggat gagtcgacgg atggatggaa gacctctgct ggcacgtact
+    24781 ccggcatccc gggtgcagct cgtaaatttg gccaaaccgt attggctgct aattgatgat
+    24841 tgcagtgggg gtcacaggaa aacgagaggt gagaagctaa ggaaatagtg gggtttaggg
+    24901 tatttggtga ttttattagg acaaattagt ataaacttgc aaaaataatt aagtttcgaa
+    24961 atgcagaaca gaggagtatg acaagttctt taatagaaat gcattataca ataggtttag
+    25021 tagtagcttt gctataactt tcctaagttc agctgaattg gtcaacatct taaatgccac
+    25081 tgtatctatc aatctttcca ataaacaact ttcattggat cgactgcaat gatggaacta
+    25141 aatatgttgc caaatcaaat tcttttgccg ccatgcagat aatggtgggt ttgcatgaga
+    25201 gcagaaatca atttataatt aacgctgttg tggatgcaac acattttgag cacatgttgg
+    25261 gggtccgatg ctccccacat gcggcgctga ttacggcgct ggaagcccag gcatcggatt
+    25321 tggaatcctt cggcaccgaa tcatcctacc gaataagcgg ggctactgtt cgatgtgatg
+    25381 cattgggagc tccatgtggc tccggcgatt gcgcagacaa tcagcggcgt taaaaaatcc
+    25441 atacatcatt ttcctgcccg caatccggat tccccgattt ccccgtcacc cgatttcccg
+    25501 tatttcccca tggttttcgg gttcatttcg ggctgcctgc ggttgcatgt gcatctggtt
+    25561 ggtttccttt ccattttcct cctttccatt tgactggctg gtaggttggt ccggtcatgt
+    25621 cagtttgtgt ggcgtttgct ctgtgattta tttgtctgtg cccgttcgaa gagtcctgcg
+    25681 tcccgagcag agttcccaaa agtgcccggg tacacggtga catttcctgt gtatcggcga
+    25741 caaagacatg gaaccaaatg ctccattgat attctaatta atgtgtgtaa gatatctgct
+    25801 agctccccca cctcgtttac ttactctctc gaaggtattt tctaatttac acgtttaagc
+    25861 aaacagaatg aaaattatga aacaacattt tgcatacaca aacgaaatgc ttcaaaggga
+    25921 atcgctggga atttcaagtg atagccccac tccttcactc gttttggcct cgagcggttc
+    25981 ctaccttggc aaagttttga aattcagacc gcgttaaaat acttttcctc cgcttaccaa
+    26041 ccgttcgttc gtcttcccct ttttttgtcc tcttcatctc agcacaagcc ccagctccag
+    26101 ctccagctcc caaggacctc aaaacaaagc aggatgtctg aaagtgtgtg cgtgtgttga
+    26161 agtgaatttt ccaaagcagc tgccaagatg tcgggttgat tttgcacacc gcccacttcc
+    26221 actcggcgca gatggaagac ggaaaatccc ccgcgttgcc aggactcttt caggactctg
+    26281 ccaatggccg cacaataaac ttaatctgct cataatggga aaataattca caaaaatgct
+    26341 cgacttgaag ttgtcggctg catttgcact tcccttcgcc ccattcgctc cacaggccct
+    26401 ttaaacagca attatatcta taggcggggc cccaggactc caagacaaag gaccccagac
+    26461 gagatgaggt ttctgcgggc ccaaggatag ccgggaaaaa agcaaggaaa gtttattagt
+    26521 tgacctggca aaggatgctc cggttccaga tccgggttag gcctcctgtc tcctgtctgc
+    26581 ggaaaattgg attgggaagg cagtcggtgg atgaacacaa actgtattag gaatattccg
+    26641 cgccatctaa tttaatttgc tccaagaaag tccagttagt taagtggggt gtaggcttac
+    26701 ccgcaaataa tacgtaataa agttttatcg caaagaagag tttacacaat gagtattgaa
+    26761 atggaagtac taagtggatt tctagttttt ataagtttct taccatttgg attaaaatcg
+    26821 agtagccaaa gcgtagagct aatagtttat tttatttact atgtcgatta aaatgtttgt
+    26881 aatggggtaa aggtcaattg tataaaagat tgtaaaaaga agattaatta tttattatag
+    26941 tacatttatg tgcactttat agcctggagt tgatgcttgt gaaattctca ccgcaagttc
+    27001 ttgaaaatta actttgtagt taattctgtg aatatttgtg aaaattaaat tatacttaca
+    27061 tatgcgaaat atgcatatca acactcaatt gataaaaccc caaccagggt tcatttttat
+    27121 tgataattcg ttgttttatt tacatttgcc gggcaattat tgcaaataca caaaaagaat
+    27181 gcaacttatt accacatcac gtcacatcgt cggaaaggat atgaaatatg tgctgaaaaa
+    27241 aaaagaagcg tagaggagaa aatgccatga aattgagtta attaaaaggg aatccactgt
+    27301 gcaccgccca cacacattct cacagccaca cttacacaca cgaacacaca tacacatggg
+    27361 caggcaaacg gcatgaaaat gcggtaaaaa agcaagaagc agagtgcgca gcagagagat
+    27421 gaatataaaa tatttggtta ataatgcaca cacagaggca tgtcgttgca attcgtgcat
+    27481 atgtattgct ggcgatatgc acacacacac acaggcacgc acatacatat gcagttcata
+    27541 acggcaaatg gacggggcat tgttgaaatt gttgaaattt ggtggaaaaa tatgctatgc
+    27601 tctctgctac gggcgcttta aaatgcattc aagtgcaagt gccgcaaatg cagttcactt
+    27661 cgctgaatcg atagagagcg aggtgggtgg cgattcagcc cccacatgtc cccccacgcc
+    27721 cacactttcg tgcacattca cctaactact cccatgaaca attgcaacat tttggcaaaa
+    27781 gtcaaggaag tcggccctcc cgctcgcacc ttcgcctcgc gcgccactcc gccgcctgcg
+    27841 tccgagcgag acaactgtag tgtacttcag acctggcgtg atgtataatt cgcacaaggc
+    27901 acaaacaatt catttcaggc atgagagaga gcgagctcaa gtctccgccc aataatgcaa
+    27961 agaggttgaa ccccttgctc tcaggaaacc ggtttatttc cacagtgtac actgtgcgtg
+    28021 tgtgcgttta tgcctgtgtg cgctagtttg tgtgagagtg agcagcacag tggctgcggc
+    28081 agacatcttt tgccaagggt tggacttttg ccgcaggact cgcagctgac cttaagcttg
+    28141 cctccccttc ccccctccac catcaagcaa acacacacac acacgcaccc tgccaaaaat
+    28201 atgtgcgtgt actgcctgcc gtaaaggggc gtaattaaaa ccgaaggggg agtggagtgg
+    28261 gggtgtaatg tcggtggggc atgtaaccgc caggtcgctc ctaaatactt tcaccaacta
+    28321 tgccatgttg tcataattct tcatccacct ataaggcaca cacccgaaaa accacacata
+    28381 gaaataaaat aaaaaatgta ggatggggag ggggatgtca atggggggcc agcaccaaaa
+    28441 ggaaaaagag agtaacgaaa agtgcacgaa atatgcgccc tgttattgct aatacgcatt
+    28501 ccagctgcag ttttcggctc agcccagtgg actcacaatg gagtggaatg ccactgtcgt
+    28561 cgctgccggc atgtcaaagt gaataactca atagccatat tgggtgtcca cctgtgcgag
+    28621 agcgggagag ggagaggcag agagcgggcg agtggcagct tcatccatca gcaggggggc
+    28681 caggggcagg attggggtcg cagaaggggc gagcacttgc aattccacgt aaatccactc
+    28741 gatgagagca cttacatgag cttgcgtttg tcacaaacac actcacacac acttggcagc
+    28801 tcgcacacac tcacagaaat ggccgttaaa attcttgaca acccgatatg gtaatgataa
+    28861 tttcgcacat tgagccgcaa tttacacttc tgcggaataa aacaaaagca aagtccgagg
+    28921 caatcgccaa tccacagcca tttacagagc cactcgattt atacgggtat ccagtatcca
+    28981 gctatccaag tacctaggta tccaagtatc cagctataca agtatcgaag tattcaacta
+    29041 tccagtgaag ttctgctgcg cgtattacca cccaaccagg taagcttggc catcaacttt
+    29101 agccatcagc catccgggga atcccatttg atcccgggaa tgcatcgggg acacgcgcag
+    29161 cgcataatct ttaattagca atgaccacaa acgcccagct gagcaatgcg aaaatgccag
+    29221 ctgagtggaa aagaaaagcg agtgaaaaac cagaaaacag cagcagttaa caaacaaata
+    29281 tgcaaaccat tatgacacac gcggtgctac acagagaaca ataggatctt gaaagctaac
+    29341 gagcacataa tacacttgaa tacatatgaa aaacataaat agtacttcaa agatgagtta
+    29401 agagttcaat gggcataagg ttgcaaggtt cttgtactga tgaaagggta tgatgacctc
+    29461 tattttctat tacttagttt ttttagttat ggttaatatt cgaccacttc tatatgctca
+    29521 ttttccgtca gtgtacgctc ttaagcagac aagcacttga aaaccgcatt taaaataact
+    29581 cgcgggacct gagaaacctc cgcgtggatg gaagtagagc accttgggag ctgggagctg
+    29641 gtagatggta gctgggaacc tggaatcggt aacttggagc tgggcactct ggacgttgcg
+    29701 caggtcagta gcaattaaga taagccgcta caagtgtgcc gattatgtcc tgtcaatgtg
+    29761 tcgtcgataa ctctggccgg cgcccccggt ggccaggtaa atcaggtaag ccggtggcgg
+    29821 actggaaacg ggaagctgga cgactggccg ggaaaggtgc agcatgaggc actcaagcga
+    29881 cggacagcgg tagccgtttc ggctgcgata agctgtccaa atggagggac atcctgctca
+    29941 ttccatatgc ataatgcatt catttgacag ctccgaatgc gaggaccacc gatcgccgga
+    30001 tcagcatctg gtgattctag accgcttcta atgccttttg agtgtgccgc acacatcctt
+    30061 tttacccctc gcctaagcat tctgctcccg cagctattaa ttagaatgta tatatgggct
+    30121 cgagttcccc atttcattcc gttaattttt ggcatttcaa aagttaacag cacgcgacat
+    30181 tttaaatatg tatgatgccc gatgcccgat gcccgatgtc ctcgtcctgt ttcttccccc
+    30241 tcgagctgcg tgagtaattt gggtggcatt ccacagatat tattgttcaa atatttgaaa
+    30301 cttgatttgc atttttcagc actcgcctcg tttgtcgaag tggcgaactg ccgaagcgga
+    30361 ggagatgatg tg
+//

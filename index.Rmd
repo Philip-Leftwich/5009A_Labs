@@ -238,7 +238,7 @@ Sign up for FREE here http://benchling.com/signup
 [Here is a quick sign-up tutorial](https://www.loom.com/share/dc0b8fbc3b3344ceb8f6c77df87b6ffe?sid=b4bdd011-87f8-4a30-a432-e3a7dd9c9b5f)
 
 
-```{r, echo=FALSE, out.width = "80%"}
+```{r, echo=FALSE, out.width = "100%"}
 knitr::include_graphics("img/benchling.png")
 ```
 
@@ -380,3 +380,132 @@ What is the expected size (in bp) of the PCR amplicon that would be generated wh
 
 
 Make sure this information is in your lab notebook. 
+
+
+# 4. Computer Lab - Session 3
+
+## Functional analysis of an E. coli DNA repair protein
+
+### 1. Lab notes
+
+Review your lab notes made during your in-class practical sessions using the guides on keeping a laboratory notebook and the lab notebook checklist. 
+
+Transfer your paper notes to your electronic lab notebook, as you do so using the guides and checklists to guide the structure and clarity of your writing. 
+
+- What detail is missing from your lab notes that you realise you should have written down at the time
+
+- What parts of your notes are less than perfectly clear and can you improve this now?
+
+- Check your structure and content with your friends, ask your lecturer or demonstrator for feedback
+
+### Data
+
+1.Add your colony PCR gel images to your notebook. Make sure the gel photo is clearly labelled/titled and sits in a clear structure with your notes
+
+Include an interpretation, have you got confirmation that your colony PCR worked? Did most of the PCRs work? 
+
+  - the presence of a band at the correct size picked from an LB-Amp plate is good confirmation that your transformation has worked. 
+    
+  - the lack of a band is not proof your transformation didn't work, it could be your PCR didn't work. Remember you still had a colony on your LB-Amp plate, which shouldn't be possible without the AmpR gene on pRB318.
+    
+2. Add the whole class data from the **two** LD-assay experiments (with and without pRB318). 
+
+- Include a simple figure that illustrates these results
+
+- Include a clear written summary of what this data *shows*
+
+- These are your **most important** results. Do these results match your predictions? What do these results tell us about the *Functional analysis of an E. coli DNA repair protein - mutS*
+
+## *Drosophila* Cas9 Reverse Genetics experiments
+
+This is a **new** experiment, so the information going in here should be in **at least** a new notebook, or possibly a new project. 
+
+In this notebook, you should write up what you did in your lab sessions, a brief introduction to reverse genetics, and our aim of seeing if we can recreate classical mutants by CRISPR/Cas9 gene knockout. 
+
+I expect to see a well structured lab book - just like we have been practising. 
+
+
+### Flybase
+
+[FlyBase](https://flybase.org/reports/FBgn0003975)  is the database used daily by anyone that works on Drosophila. It contains all the information there is to know about the Drosophila melanogaster genome (and others), including gene annotations, expression data, phenotypic data and any stocks publicly available.
+
+The wealth of information available is the main obstacle to be overcome by anyone new to large databases such as FlyBase. There are many in-depth guides on how to use FlyBase, but often only a small snippet of information is what you’re after when you look up a gene.
+
+The best way to understand FlyBase is to use it. The purpose of this guide is to help anyone new to it get into it for the first time and basic information about a gene.
+
+This section will highlight a few of the most immediately useful pieces of information displayed on a typical gene page:
+
+#### General Information
+
+This section contains the identity of the gene. The Name of the gene is given along with its Symbol (f), which can be used as an abbreviation. The unique CG (Computed Gene) number and FB ID are also given, but are often not stated in publications for named genes. Genes without a name are referred to by their CG number. The Gene Model Status tells you whether the gene is known to or thought to exist (current). Genes found not to exist can still be looked up for reference.
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("img/flybase_location.png")
+```
+
+#### Genomic Location
+
+This section tells you exactly where the gene is in the genome. The important bits are the Chromosome (and arm if the gene is on an autosome), the Sequence Location and the orientation of the gene (shown by a [+] or [–]). The Genomic Maps section gives a visual representation of the area surrounding the gene, showing other nearby genes and their orientations. The buttons Get genome region and Get FastA allow you to download the entire gene sequence, or just the parts you’re interested in (e.g. exons only). The four most useful are: Gene region – the whole sequence as it is in the genome, Transcripts – the mature mRNA sequence(s) produced from the gene, the CDS (coding sequence) – the sections of the mRNA transcript(s) that are actually translated into protein, and the Translations – the protein(s) produced from the gene.
+
+
+#### Summary Information
+
+This is the section to look at if you want a quick overview of what a gene does. The molecular function, biological processes and phenotypes annotations tell you what is known, or predicted, about the gene’s function. For a more detailed description of phenotypes, the Phenotypic Descriptions of Classical Alleles button will take you to a page containing information about different alleles, with links to the publications in which they were originally described.
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("img/function_summary.png")
+```
+
+#### Phenotypic descriptions
+
+This is the section to look at, if there are any descriptions of any mutants previously characterised
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("img/flybase_expression.png")
+```
+
+#### Expression data
+
+This is the section with any mRNA expression data, the three main charts are split into: tissue types, anatomical locations and developmental times.
+
+#### BLAST 
+
+In bioinformatics, BLAST (basic local alignment search tool)[2] is an algorithm and program for comparing primary biological sequence information, such as the amino-acid sequences of proteins or the nucleotides of DNA and/or RNA sequences. A BLAST search enables a researcher to compare a subject protein or nucleotide sequence (called a query) with a library or database of sequences, and identify database sequences that resemble the query sequence above a certain threshold.
+
+We can use BLAST to compare the designed sgRNAs in our transgenic sgRNA flies and check where they are designed to cut in the target gene. 
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("img/BLAST.png")
+```
+
+
+### Tasks
+
+Use the links provided to the Vienna Biocenter for each line:
+
+| Lines   | Key   | Genotype                       | Link                                         |
+|---------|-------|--------------------------------|----------------------------------------------|
+| 340009  | S2    | nub-Gal4-UAS-Cas9              | [Link](https://shop.vbc.ac.at/vdrc_store/340009.html) |
+| 340017  | S3    | Act5C-Gal4-UAS-Cas9            | [Link](https://shop.vbc.ac.at/vdrc_store/340017.html) |
+| 341789  | S4    | sgRNA: TCATGTTGAACAGCGAGAGC; sgRNA: TGCTAATGCTGTGCTGGTCG | [Link](https://shop.vbc.ac.at/vdrc_store/341789.html) |
+| 342814  | S5    | sgRNA: GGCGGCCCACAATAGTGCAG; sgRNA: ATCGTTCTACCAGTATGAGA | [Link](https://shop.vbc.ac.at/vdrc_store/342814.html) |
+
+
+Here you can find a link to the gene profile for each one in FlyBase. 
+
+In turn: 
+
+1. What are the tissue and timing expressions for the two Cas9 lines? A brief one or two line summary
+
+2. What are the two genes being targeted? What information do we have about the function of these genes, and what do naturally occurring mutants of these lines look like?
+
+3. Using BLAST can you check that the sgRNAs target the correct gene? 
+> Note you don't have to do this for all of them. I just want you to have a go at using BLAST
+
+4. Add the two target genes to Benchling.
+
+[*vestigial*](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/vg.gb)
+
+[*dpp*](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/dpp.gb)
+
+Download the two target genes into your own Project on Benchling and add the two sgRNAs (for each gene) as annotations. 
