@@ -1,0 +1,117 @@
+### Plasmid annotation
+
+This worksheet teaches you how to use Benchling to view and understand sequence annotations. With sequence annotation, we can mark out important regions in DNA sequences, such as mutations, cut sites, coding regions, transcription factor binding sites or primer binding sites. Benchling generates a graphical map of your annotated sequences as you go, giving you an organized overview of the important parts of DNA in your sequence
+
+Annotation is simple and just requires a foundation on the types of DNA features that you might wish to label on your sequences. In this module, you will learn what some general features are such as promoters, mutations, primer binding sites or coding regions
+
+Copy the [pRB318 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb) into your own Project on Benchling so you can edit as you please. Afterwards, navigate to your Vector sequence and you will see there are three different ways to view this sequence:
+
+Sequence map
+
+Linear map
+
+Plasmid map
+
+All three views have annotation features, only the sequence map shows the actual nucleotide sequence, the linear map shows the plasmid as though it is a linear sequence, while the plasmid map shows the plasmid in its native circular form.
+
+https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247
+
+There is no correct way to view this sequence, and you may find you have a particular preference, or that the method of viewing your sequence will be highly dependent on your experimental purpose.
+
+
+| Annotation            | Description                           |
+|---------------------|-----------------------------------------|
+| E.coli mutS            | The full length mutS gene from E.coli |
+| trc promoter | Strong promoter to drive gene of interest|
+| mutS CDS           | The section of the gene which is translated into protein (coding domain sequence) - begins at start and ends at stop codon |
+| AmpR CDS            | The coding domain sequence for the Ampicillin Resistance Gene - used as the selection marker for transformation |
+| E.coli mutS            | The full length mutS gene from E.coli |ColE1 Origin | Origin of replication -  Plasmids carrying this origin exist in high copy numbers in E. coli.|
+|rrnB terminator | Signal sequence to terminate the transcript made from the gene of interest, preventing run-on transcription.|
+|lacI | Represses transcription of gene of interest in the presnence of lactose|
+
+You can scroll through the map, or if you click on the “Annotations” button you will find a list of all the annotated features, their Location, Length of feature and the color of the annotation. Here you can toggle visibility of each feature on/off or edit each annotation manually.
+
+**Question** - What are the "Locations" (range in the sequence) and Lengths (number of base pairs) for the following?
+
+- AmpR CDS
+
+- rrnB Terminator
+
+- mutS CDS
+
+**Task** 
+The AmpR promoter is supposed to be annotated at bp 3356-3447. Can you add it?
+
+### Translation of mutS
+
+Toggle on/off different viewing features through the ⚙️ icon like “ORFs” or “Amino Acid Indices” which make it easier to find relevant information.
+
+Click on the mutS CDS starting point at the beginning of the mutS gene to highlight the related sequence information.
+
+Hover over the DNA sequence and right click to bring up a menu and select “Create Translation”.
+
+Observe that this now creates a translation reading frame on top of the DNA sequence.
+
+https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3
+
+
+### Finished
+
+When you have finished these activities - drag and drop the pRB318 plasmid into your notebook and write a brief summary of what you did. 
+
+# 5. Computer Lab Session 2
+
+In today's session we will work to develop and improve our lab notes and make some computational analyses.
+
+## 1. Lab notes
+
+Review your lab notes made during your in-class practical sessions using the guides on keeping a laboratory notebook and the lab notebook checklist. 
+
+Transfer your paper notes to your electronic lab notebook, as you do so using the guides and checklists to guide the structure and clarity of your writing. 
+
+- What detail is missing from your lab notes that you realise you should have written down at the time
+
+- What parts of your notes are less than perfectly clear and can you improve this now?
+
+- Check your structure and content with your friends, ask your lecturer or demonstrator for feedback
+
+## 2. Add protocols to your entries
+
+You have been provided with links to examples of protocols on Benchling, you also have access to your lab protocols in your handbook. 
+
+- Attach [Protocol Entries](https://help.benchling.com/hc/en-us/articles/9684268242957-Create-and-attach-protocols-to-entries) using this guide retrieve the protocol pdfs from Blackboard and attach them as entries to your lab notes in the appropriate sections.
+
+## Designing primers
+
+In our practical sessions we carried out a bacterial transformation to introduce the pRB318 plasmid into our cells. Using an Ampicillin selection plate we should be able to recover colonies that are Ampicillin resistant thanks to the AmpR gene on the plasmid. In order to confirm successful transformation we will carry out a [colony PCR](https://pubmed.ncbi.nlm.nih.gov/24011056/#:~:text=Colony%20PCR%20is%20a%20method,a%20portion%20of%20the%20construct.) to confirm the presence of plasmid DNA in our cells. 
+
+In this pRB318 template, you will see that there are two pre-designed primers attached to the template sequence (AmpR and AmpF). Find these annotations and note the following properties for each:
+
+- Length
+
+- GC content
+
+- Melting temperature
+
+Some guidelines for designing PCR primers include:
+
+- Length of 18-24 bases (Specificity usually is dependent on the length and annealing temperature. The shorter the primers are, the more efficiently they will bind or anneal to the target.)
+
+- 40-60% G/C content (Be mindful not to have too many repeating G or C bases, as this can promote primer-dimer formation.)
+
+- Start and end with 1-2 G/C pairs (This is known as a GC Clamp).
+
+- Melting temperature (Tm) of 50-60°C (This can depend on your PCR buffer conditions and DNA polymerase as well).
+
+- Primer pairs should have a Tm within 5°C of each other
+
+- Primer pairs should not have complementary regions
+
+Question(s)
+
+How many of these guidelines does the AmpR primer pair meet?
+
+What is the expected size (in bp) of the PCR amplicon that would be generated when using these primers?
+
+
+Make sure this information is in your lab notebook. 

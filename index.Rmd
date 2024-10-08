@@ -24,23 +24,26 @@ You will complete a series of computer and laboratory practical sessions in orde
 
 You will be provided with a paper lab notebook that you must use to keep notes during the practical sessions, you will be required to transfer these notes to an Electronic Lab Notebook (ELN) where will also add analyses and files to enhance our notes.
 
-During this module we will run two different experiments: 
+During this module we will run a series of different experiments: 
 
-1) Understanding the genetic basis of the Mismatch Repair (MMR) pathway in *E.coli*
+1) Understanding the genetic basis of the Mismatch Repair (MMR) pathway in *E.coli* by functional knockout with CRISPR/Cas9
 
-2) Using CRISPR/Cas9 to study gene function in the fruitfly *Drosophila Melanogaster*
+2) Confirmation of the function of *mutS* by restoration of loss of function with a *mutS* transgene
+
+3) Sequencing of the *rpoB* gene to understand the mutations that provide antibiotic resistance
+
+
 
 ## Assessment
 
 ### Formative
 
-- You will ask a lab partner to review your notebook every week, and in turn review theirs. You should provide feedback on the clarity, thoroughness and readability of their work
 
-- You will review your lab notebook with the MO or one of the demonstrators at least once during the module
+- You will review your lab notebook with the MO or one of the demonstrators each session
 
 ### Summative
 
-At the end of term you will submit the ELN for **one** of the two experiments. This is worth 10% of your Module grade
+At the end of term you will submit the ELN for your experiments & submit a short lab report
 
 ## Learning Outcomes
 
@@ -55,7 +58,6 @@ At the end of term you will submit the ELN for **one** of the two experiments. T
 - Keep accurate, clear and reusable lab notes.
 
 Students who adopt these basic but important research practices are more likely to gain some of the skills that are desperately needed by industrial and academic research centres.
-
 
 
 # 2. Keeping a Laboratory Notebook
@@ -192,7 +194,7 @@ knitr::kable(rbind(
 
 # 4. Computer Lab - Session 1
 
-Today's objective is to start some background reading on the experimental background to "Understanding the genetic basis of the Mismatch Repair (MMR) pathway in *E.coli*" - you will then start a project on the ELN Benchling - and make your first entry - a brief introduction to the project and its experimental aims, finally we will add the pRB318 plasmid to the project, annotate the plasmid and include some details in our lab notebook. 
+Today's objective is to start some background reading on the experimental background to "Understanding the genetic basis of the Mismatch Repair (MMR) pathway in *E.coli*" - you will then start a project on the ELN Benchling - and make your first entry - a brief introduction to the project and its experimental aims, finally we will add the Cas9 plasmid to the project, identify the gRNA being used and score its on-target and off-target efficiencies
 
 ## 1. Background Reading
 
@@ -205,12 +207,10 @@ Today's objective is to start some background reading on the experimental backgr
 ### Questions
 
   With the background reading available, try and get a feel for the experimental objectives - based on your understanding of MMR in 
-*E.coli* - which of these bacterial strains are likely to have a high mutation rate? 
+*E.coli* - are bacteria with no *mutS* likely to mutate at a higher or lower rate
   
   How will we test this, what are we attempting to observe?
   
-This is a simple simulation of the L-D assay and screening - when you play with it, what determines the observance of mutants? Time, mutational rate or both? https://philip-leftwich.shinyapps.io/Luria_Delbruck/
-
 
 ## 2. Getting to grips with Electronic Lab Notebooks
 
@@ -247,7 +247,7 @@ knitr::include_graphics("img/benchling.png")
 [Learn how to get started and sign up with Benchling here.](https://help.benchling.com/hc/en-us/articles/9684234496013-The-Basics-of-Benchling)
 
 
-## 3. Annotating a Plasmid
+## 3. Documenting CRISPR Plasmid
 
 Before starting this annotation you should have: 
 
@@ -255,277 +255,17 @@ Before starting this annotation you should have:
 
 - In this project one folder called "DNA Inventory"
 
-- One Lab Notebook with the following clear entries
+- One Lab Notebook clear entries transcribing your notes from your paper lab notebook
 
     1. Title
     2. A clear introduction to the experimental aims (100-150 words)
     3. Objectives - Clearly state the specific objectives or research questions that your experiment aims to address. What do you hope to achieve or discover through this experiment?
     4. Hypotheses (if applicable):
     
-    
-### Plasmid annotation
+### Uploading a plasmid  
 
-This worksheet teaches you how to use Benchling to view and understand sequence annotations. With sequence annotation, we can mark out important regions in DNA sequences, such as mutations, cut sites, coding regions, transcription factor binding sites or primer binding sites. Benchling generates a graphical map of your annotated sequences as you go, giving you an organized overview of the important parts of DNA in your sequence
+Copy the [Cas9 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb) into your own Project on Benchling so you can edit as you please.
 
-Annotation is simple and just requires a foundation on the types of DNA features that you might wish to label on your sequences. In this module, you will learn what some general features are such as promoters, mutations, primer binding sites or coding regions
 
-Copy the [pRB318 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb) into your own Project on Benchling so you can edit as you please. Afterwards, navigate to your Vector sequence and you will see there are three different ways to view this sequence:
 
-Sequence map
-
-Linear map
-
-Plasmid map
-
-All three views have annotation features, only the sequence map shows the actual nucleotide sequence, the linear map shows the plasmid as though it is a linear sequence, while the plasmid map shows the plasmid in its native circular form.
-
-https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247
-
-There is no correct way to view this sequence, and you may find you have a particular preference, or that the method of viewing your sequence will be highly dependent on your experimental purpose.
-
-
-| Annotation            | Description                           |
-|---------------------|-----------------------------------------|
-| E.coli mutS            | The full length mutS gene from E.coli |
-| trc promoter | Strong promoter to drive gene of interest|
-| mutS CDS           | The section of the gene which is translated into protein (coding domain sequence) - begins at start and ends at stop codon |
-| AmpR CDS            | The coding domain sequence for the Ampicillin Resistance Gene - used as the selection marker for transformation |
-| E.coli mutS            | The full length mutS gene from E.coli |ColE1 Origin | Origin of replication -  Plasmids carrying this origin exist in high copy numbers in E. coli.|
-|rrnB terminator | Signal sequence to terminate the transcript made from the gene of interest, preventing run-on transcription.|
-|lacI | Represses transcription of gene of interest in the presnence of lactose|
-
-You can scroll through the map, or if you click on the “Annotations” button you will find a list of all the annotated features, their Location, Length of feature and the color of the annotation. Here you can toggle visibility of each feature on/off or edit each annotation manually.
-
-**Question** - What are the "Locations" (range in the sequence) and Lengths (number of base pairs) for the following?
-
-- AmpR CDS
-
-- rrnB Terminator
-
-- mutS CDS
-
-**Task** 
-The AmpR promoter is supposed to be annotated at bp 3356-3447. Can you add it?
-
-### Translation of mutS
-
-Toggle on/off different viewing features through the ⚙️ icon like “ORFs” or “Amino Acid Indices” which make it easier to find relevant information.
-
-Click on the mutS CDS starting point at the beginning of the mutS gene to highlight the related sequence information.
-
-Hover over the DNA sequence and right click to bring up a menu and select “Create Translation”.
-
-Observe that this now creates a translation reading frame on top of the DNA sequence.
-
-https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3
-
-
-### Finished
-
-When you have finished these activities - drag and drop the pRB318 plasmid into your notebook and write a brief summary of what you did. 
-
-# 5. Computer Lab Session 2
-
-In today's session we will work to develop and improve our lab notes and make some computational analyses.
-
-## 1. Lab notes
-
-Review your lab notes made during your in-class practical sessions using the guides on keeping a laboratory notebook and the lab notebook checklist. 
-
-Transfer your paper notes to your electronic lab notebook, as you do so using the guides and checklists to guide the structure and clarity of your writing. 
-
-- What detail is missing from your lab notes that you realise you should have written down at the time
-
-- What parts of your notes are less than perfectly clear and can you improve this now?
-
-- Check your structure and content with your friends, ask your lecturer or demonstrator for feedback
-
-## 2. Add protocols to your entries
-
-You have been provided with links to examples of protocols on Benchling, you also have access to your lab protocols in your handbook. 
-
-- Attach [Protocol Entries](https://help.benchling.com/hc/en-us/articles/9684268242957-Create-and-attach-protocols-to-entries) using this guide retrieve the protocol pdfs from Blackboard and attach them as entries to your lab notes in the appropriate sections.
-
-## Designing primers
-
-In our practical sessions we carried out a bacterial transformation to introduce the pRB318 plasmid into our cells. Using an Ampicillin selection plate we should be able to recover colonies that are Ampicillin resistant thanks to the AmpR gene on the plasmid. In order to confirm successful transformation we will carry out a [colony PCR](https://pubmed.ncbi.nlm.nih.gov/24011056/#:~:text=Colony%20PCR%20is%20a%20method,a%20portion%20of%20the%20construct.) to confirm the presence of plasmid DNA in our cells. 
-
-In this pRB318 template, you will see that there are two pre-designed primers attached to the template sequence (AmpR and AmpF). Find these annotations and note the following properties for each:
-
-- Length
-
-- GC content
-
-- Melting temperature
-
-Some guidelines for designing PCR primers include:
-
-- Length of 18-24 bases (Specificity usually is dependent on the length and annealing temperature. The shorter the primers are, the more efficiently they will bind or anneal to the target.)
-
-- 40-60% G/C content (Be mindful not to have too many repeating G or C bases, as this can promote primer-dimer formation.)
-
-- Start and end with 1-2 G/C pairs (This is known as a GC Clamp).
-
-- Melting temperature (Tm) of 50-60°C (This can depend on your PCR buffer conditions and DNA polymerase as well).
-
-- Primer pairs should have a Tm within 5°C of each other
-
-- Primer pairs should not have complementary regions
-
-Question(s)
-
-How many of these guidelines does the AmpR primer pair meet?
-
-What is the expected size (in bp) of the PCR amplicon that would be generated when using these primers?
-
-
-Make sure this information is in your lab notebook. 
-
-
-# 4. Computer Lab - Session 3
-
-## Functional analysis of an E. coli DNA repair protein
-
-### 1. Lab notes
-
-Review your lab notes made during your in-class practical sessions using the guides on keeping a laboratory notebook and the lab notebook checklist. 
-
-Transfer your paper notes to your electronic lab notebook, as you do so using the guides and checklists to guide the structure and clarity of your writing. 
-
-- What detail is missing from your lab notes that you realise you should have written down at the time
-
-- What parts of your notes are less than perfectly clear and can you improve this now?
-
-- Check your structure and content with your friends, ask your lecturer or demonstrator for feedback
-
-### Data
-
-1.Add your colony PCR gel images to your notebook. Make sure the gel photo is clearly labelled/titled and sits in a clear structure with your notes
-
-Include an interpretation, have you got confirmation that your colony PCR worked? Did most of the PCRs work? 
-
-  - the presence of a band at the correct size picked from an LB-Amp plate is good confirmation that your transformation has worked. 
-    
-  - the lack of a band is not proof your transformation didn't work, it could be your PCR didn't work. Remember you still had a colony on your LB-Amp plate, which shouldn't be possible without the AmpR gene on pRB318.
-    
-2. Add the whole class data from the **two** LD-assay experiments (with and without pRB318). 
-
-- Include a simple figure that illustrates these results
-
-- Include a clear written summary of what this data *shows*
-
-- These are your **most important** results. Do these results match your predictions? What do these results tell us about the *Functional analysis of an E. coli DNA repair protein - mutS*
-
-## *Drosophila* Cas9 Reverse Genetics experiments
-
-This is a **new** experiment, so the information going in here should be in **at least** a new notebook, or possibly a new project. 
-
-In this notebook, you should write up what you did in your lab sessions, a brief introduction to reverse genetics, and our aim of seeing if we can recreate classical mutants by CRISPR/Cas9 gene knockout. 
-
-I expect to see a well structured lab book - just like we have been practising. 
-
-
-### Flybase
-
-[FlyBase](https://flybase.org/reports/FBgn0003975)  is the database used daily by anyone that works on Drosophila. It contains all the information there is to know about the Drosophila melanogaster genome (and others), including gene annotations, expression data, phenotypic data and any stocks publicly available.
-
-The wealth of information available is the main obstacle to be overcome by anyone new to large databases such as FlyBase. There are many in-depth guides on how to use FlyBase, but often only a small snippet of information is what you’re after when you look up a gene.
-
-The best way to understand FlyBase is to use it. The purpose of this guide is to help anyone new to it get into it for the first time and basic information about a gene.
-
-This section will highlight a few of the most immediately useful pieces of information displayed on a typical gene page:
-
-#### General Information
-
-This section contains the identity of the gene. The Name of the gene is given along with its Symbol (f), which can be used as an abbreviation. The unique CG (Computed Gene) number and FB ID are also given, but are often not stated in publications for named genes. Genes without a name are referred to by their CG number. The Gene Model Status tells you whether the gene is known to or thought to exist (current). Genes found not to exist can still be looked up for reference.
-
-```{r, echo=FALSE, out.width = "100%"}
-knitr::include_graphics("img/flybase_location.png")
-```
-
-#### Genomic Location
-
-This section tells you exactly where the gene is in the genome. The important bits are the Chromosome (and arm if the gene is on an autosome), the Sequence Location and the orientation of the gene (shown by a [+] or [–]). The Genomic Maps section gives a visual representation of the area surrounding the gene, showing other nearby genes and their orientations. The buttons Get genome region and Get FastA allow you to download the entire gene sequence, or just the parts you’re interested in (e.g. exons only). The four most useful are: Gene region – the whole sequence as it is in the genome, Transcripts – the mature mRNA sequence(s) produced from the gene, the CDS (coding sequence) – the sections of the mRNA transcript(s) that are actually translated into protein, and the Translations – the protein(s) produced from the gene.
-
-
-#### Summary Information
-
-This is the section to look at if you want a quick overview of what a gene does. The molecular function, biological processes and phenotypes annotations tell you what is known, or predicted, about the gene’s function. For a more detailed description of phenotypes, the Phenotypic Descriptions of Classical Alleles button will take you to a page containing information about different alleles, with links to the publications in which they were originally described.
-
-```{r, echo=FALSE, out.width = "100%"}
-knitr::include_graphics("img/function_summary.png")
-```
-
-#### Phenotypic descriptions
-
-This is the section to look at, if there are any descriptions of any mutants previously characterised
-
-```{r, echo=FALSE, out.width = "100%"}
-knitr::include_graphics("img/flybase_expression.png")
-```
-
-#### Expression data
-
-This is the section with any mRNA expression data, the three main charts are split into: tissue types, anatomical locations and developmental times.
-
-#### BLAST 
-
-In bioinformatics, BLAST (basic local alignment search tool)[2] is an algorithm and program for comparing primary biological sequence information, such as the amino-acid sequences of proteins or the nucleotides of DNA and/or RNA sequences. A BLAST search enables a researcher to compare a subject protein or nucleotide sequence (called a query) with a library or database of sequences, and identify database sequences that resemble the query sequence above a certain threshold.
-
-We can use BLAST to compare the designed sgRNAs in our transgenic sgRNA flies and check where they are designed to cut in the target gene. 
-
-```{r, echo=FALSE, out.width = "100%"}
-knitr::include_graphics("img/BLAST.png")
-```
-
-
-### Tasks
-
-Use the links provided to the Vienna Biocenter for each line:
-
-| Lines   | Key   | Genotype                       | Link                                         |
-|---------|-------|--------------------------------|----------------------------------------------|
-| 340009  | S2    | nub-Gal4-UAS-Cas9              | [Link](https://shop.vbc.ac.at/vdrc_store/340009.html) |
-| 340017  | S3    | Act5C-Gal4-UAS-Cas9            | [Link](https://shop.vbc.ac.at/vdrc_store/340017.html) |
-| 341789  | S4    | sgRNA: TCATGTTGAACAGCGAGAGC; sgRNA: TGCTAATGCTGTGCTGGTCG | [Link](https://shop.vbc.ac.at/vdrc_store/341789.html) |
-| 342814  | S5    | sgRNA: GGCGGCCCACAATAGTGCAG; sgRNA: ATCGTTCTACCAGTATGAGA | [Link](https://shop.vbc.ac.at/vdrc_store/342814.html) |
-
-
-Here you can find a link to the gene profile for each one in FlyBase. 
-
-In turn: 
-
-1. What are the tissue and timing expressions for the two Cas9 lines? A brief one or two line summary
-
-2. What are the two genes being targeted? What information do we have about the function of these genes, and what do naturally occurring mutants of these lines look like?
-
-3. Using BLAST can you check that the sgRNAs target the correct gene? 
-> Note you don't have to do this for all of them. I just want you to have a go at using BLAST
-
-4. Add the two target genes to Benchling.
-
-[*vestigial*](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/vg.gb)
-
-[*dpp*](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/dpp.gb)
-
-Download the two target genes into your own Project on Benchling and add the two sgRNAs (for each gene) as annotations. 
-
-
-# 4. Computer Lab - Session 4
-
-## Functional analysis of an E. coli DNA repair protein
-
-### Tasks
-
-Download a copy of the *rpoB* gene by using the import from database function. Use the *E.coli* GCA_000798515 genome.
-
-Create an alignment with our sequencing files and note where mutations appear to have occurred
-
-##  *Drosophila* Cas9 Reverse Genetics experiments
-
-### Tasks 
-
-Write up the phenotypic data from these crosses
-
-Design a molecular strategy that would allow you to confirm that observed mutants are the result of CRISPR deletions and that wildtypes are the absence of CRISPR editing. In the course of this you should - design appropriate primers using Benchling primer tools, make a note of the expected differences in amplicon sizes, write or adapt existing protocols for use of reagents, and conditions.
 
