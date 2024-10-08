@@ -247,7 +247,7 @@ knitr::include_graphics("img/benchling.png")
 [Learn how to get started and sign up with Benchling here.](https://help.benchling.com/hc/en-us/articles/9684234496013-The-Basics-of-Benchling)
 
 
-## 3. Documenting CRISPR Plasmid
+## 3. Documenting a CRISPR Plasmid
 
 Before starting this annotation you should have: 
 
@@ -262,9 +262,69 @@ Before starting this annotation you should have:
     3. Objectives - Clearly state the specific objectives or research questions that your experiment aims to address. What do you hope to achieve or discover through this experiment?
     4. Hypotheses (if applicable):
     
+CRISPR which stands for “Clustered Regularly Interspaced Short Palindromic Repeats” is a family of DNA sequences that are found in prokaryotic organisms such as archaea and bacteria and have been linked to innate immunity in these systems against predators such as bacteriophages. CRISPR sequences function in conjunction with Cas proteins (the most notable member being Cas9) to protect the organism by recognizing and destroying DNA from the invading phage. CRISPR-Cas9 has been repurposed and engineered by scientists from its native context to be a robust and effective method for gene-editing.
+    
 ### Uploading a plasmid  
 
-Copy the [Cas9 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb) into your own Project on Benchling so you can edit as you please.
+Copy the [Cas9 plasmid](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/cas9-plasmid.gb) into your own Project on Benchling so you can edit as you please.
+
+- Download the file (it is in genbank .gb format)
+
+- Go to the folder you have made called "DNA Inventory" on Benchling
+
+- Once inside this folder on the menu go to `+` and select Import DNA/RNA sequence
+
+- Drag and Drop or select upload file and add your cas9-plasmid.gb file
+
+ Afterwards, navigate to your Vector sequence and you will see there are three different ways to view this sequence:
+
+Sequence map
+
+Linear map
+
+Plasmid map
+
+All three views have annotation features, only the sequence map shows the actual nucleotide sequence, the linear map shows the plasmid as though it is a linear sequence, while the plasmid map shows the plasmid in its native circular form.
+
+https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247
+
+There is no correct way to view this sequence, and you may find you have a particular preference, or that the method of viewing your sequence will be highly dependent on your experimental purpose.
+
+You can drag and drop your plasmid file from the menu bar into an open lab notebook - this lets you create links between molecular items and your notes. Try this now in the space where you first reference the plasmid in your notes. 
+
+### Identifying the gRNA sequence
+
+There are two parts to gRNA sequences
+
+- The target sequence, programmed to match a target gene
+- The scaffold, unchanging, binds to the Cas9 nuclease
+
+We need to identify the target sequence and confirm it has a match in the *E.coli* *mutS* gene.
+
+Find the annotation for `gRNA target sequence` and note this sequence in your notebook. 
+
+### Check gRNA targets against *mutS*
+
+Copy the [mutS DNA sequence](https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/mutS.gb) into your own Project on Benchling so you can edit as you please.
+
+Click on the "CRISPR" icon on the right sidebar, and click on the Design and Analyze Guides button.
+
+https://www.loom.com/share/f90cf28a546a4abdbc7f860104dc3888?sid=73291b39-da71-43f4-9fa1-1df9ab60c58c
+
+A window titled, "Design CRISPR Guides: Guide Parameters" should be open and ensure that the following fields have the correct information below and then click Finish.
+
+A new tab, Design CRISPR will appear and ask to specify the target region of mutS that you want to create guide RNAs for. Click on “Split Workspace” to visualize the guide RNAs and what parts of the mutS gene they target.
+Go to your Sequence Map and highlight the entire sequence for mutS
+
+Now click "Create" and guide RNA sequences will be generated and scored.
+
+You can organize guide RNAs by clicking on the headers such as: "Position", "On-Target Score", and "Off-Target Score".
+
+Sort these by "On-Target Score" and click on the checkbox for each guide RNA to visualize them in the DNA sequence.
+
+- Now find our gRNA in this list and note the On-target and Off-target score in your notebook
+
+> Our sequence in the plasmd is in reverse-complement don't let this confuse you! 
 
 
 
