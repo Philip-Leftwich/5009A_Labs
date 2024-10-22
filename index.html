@@ -1180,6 +1180,8 @@ Notebook</a></li>
 <li><a href="#lab-notebook-checklist" id="toc-lab-notebook-checklist">3.
 Lab Notebook Checklist</a></li>
 <li><a href="#computer-lab---session-1" id="toc-computer-lab---session-1">4. Computer Lab - Session 1</a></li>
+<li><a href="#computer-lab-session-2" id="toc-computer-lab-session-2">5.
+Computer Lab session 2</a></li>
 </ul>
 </div>
 </nav>
@@ -1221,8 +1223,7 @@ demonstrators each session</li>
 </div>
 <div id="summative" class="section level3">
 <h3>Summative</h3>
-<p>At the end of term you will submit the ELN for your experiments &amp;
-submit a short lab report</p>
+<p>At the end of term you will submit the ELN for your experiments</p>
 </div>
 </div>
 <div id="learning-outcomes" class="section level2">
@@ -1821,6 +1822,155 @@ score in your notebook</li>
 <p>Our sequence in the plasmd is in reverse-complement don’t let this
 confuse you!</p>
 </blockquote>
+</div>
+</div>
+</div>
+<div id="computer-lab-session-2" class="section level1">
+<h1>5. Computer Lab session 2</h1>
+<div id="annotating-the-prb318-plasmid" class="section level2">
+<h2>Annotating the pRB318 plasmid</h2>
+<p>This worksheet teaches you how to use Benchling to view and
+understand sequence annotations. With sequence annotation, we can mark
+out important regions in DNA sequences, such as mutations, cut sites,
+coding regions, transcription factor binding sites or primer binding
+sites. Benchling generates a graphical map of your annotated sequences
+as you go, giving you an organized overview of the important parts of
+DNA in your sequence</p>
+<p>Annotation is simple and just requires a foundation on the types of
+DNA features that you might wish to label on your sequences. In this
+module, you will learn what some general features are such as promoters,
+mutations, primer binding sites or coding regions</p>
+<p>Copy the <a href="https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb">pRB318
+plasmid</a> into your own Project on Benchling so you can edit as you
+please. Afterwards, navigate to your Vector sequence and you will see
+there are three different ways to view this sequence:</p>
+<ul>
+<li><p>Sequence map</p></li>
+<li><p>Linear map</p></li>
+<li><p>Plasmid map</p></li>
+</ul>
+<p>All three views have annotation features, only the sequence map shows
+the actual nucleotide sequence, the linear map shows the plasmid as
+though it is a linear sequence, while the plasmid map shows the plasmid
+in its native circular form.</p>
+<p><a href="https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247" class="uri">https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247</a></p>
+<p>There is no correct way to view this sequence, and you may find you
+have a particular preference, or that the method of viewing your
+sequence will be highly dependent on your experimental purpose.</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="66%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Annotation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>E.coli mutS</td>
+<td>The full length <em>mutS</em> gene from E.coli</td>
+</tr>
+<tr class="even">
+<td>trc promoter</td>
+<td>Strong promoter to drive gene of interest</td>
+</tr>
+<tr class="odd">
+<td>mutS CDS</td>
+<td>The section of the gene which is translated into protein (coding
+domain sequence) - begins at start and ends at stop codon</td>
+</tr>
+<tr class="even">
+<td>AmpR CDS</td>
+<td>The coding domain sequence for the Ampicillin Resistance Gene - used
+as the selection marker for transformation</td>
+</tr>
+<tr class="odd">
+<td>ColE1 Origin</td>
+<td>Origin of replication - Plasmids carrying this origin exist in high
+copy numbers in E. coli.</td>
+</tr>
+<tr class="even">
+<td>rrnB terminator</td>
+<td>Signal sequence to terminate the transcript made from the gene of
+interest, preventing run-on transcription.</td>
+</tr>
+<tr class="odd">
+<td>lacI</td>
+<td>Represses transcription of gene of interest in the presnence of
+lactose</td>
+</tr>
+</tbody>
+</table>
+<p>You can scroll through the map, or if you click on the “Annotations”
+button you will find a list of all the annotated features, their
+Location, Length of feature and the color of the annotation. Here you
+can toggle visibility of each feature on/off or edit each annotation
+manually.</p>
+<p><strong>Question</strong> - What are the “Locations” (range in the
+sequence) and Lengths (number of base pairs) for the following?</p>
+<ul>
+<li><p>AmpR CDS</p></li>
+<li><p>rrnB Terminator</p></li>
+<li><p>mutS CDS</p></li>
+</ul>
+<p><strong>Task</strong> The AmpR promoter is supposed to be annotated
+at bp 3356-3447. Can you add it?</p>
+<div id="translation-of-muts" class="section level3">
+<h3>Translation of mutS</h3>
+<p>Toggle on/off different viewing features through the ⚙️ icon like
+“ORFs” or “Amino Acid Indices” which make it easier to find relevant
+information.</p>
+<p>Click on the mutS CDS starting point at the beginning of the mutS
+gene to highlight the related sequence information.</p>
+<p>Hover over the DNA sequence and right click to bring up a menu and
+select “Create Translation”.</p>
+<p>Observe that this now creates a translation reading frame on top of
+the DNA sequence.</p>
+<p><a href="https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3" class="uri">https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3</a></p>
+</div>
+<div id="designing-colony-pcr-primers" class="section level3">
+<h3>Designing colony pcr primers</h3>
+<p>In our practical sessions we carried out a bacterial transformation
+to introduce the pRB318 plasmid into our cells. Using an Ampicillin
+selection plate we should be able to recover colonies that are
+Ampicillin resistant thanks to the AmpR gene on the plasmid. In order to
+confirm successful transformation we will carry out a <a href="https://pubmed.ncbi.nlm.nih.gov/24011056/#:~:text=Colony%20PCR%20is%20a%20method,a%20portion%20of%20the%20construct.">colony
+PCR</a> to confirm the presence of plasmid DNA in our cells.</p>
+<p>In this pRB318 template, you will see that there are two pre-designed
+primers attached to the template sequence (AmpR and AmpF). Find these
+annotations and note the following properties for each:</p>
+<ul>
+<li><p>Length</p></li>
+<li><p>GC content</p></li>
+<li><p>Melting temperature</p></li>
+</ul>
+<p>Some guidelines for designing PCR primers include:</p>
+<ul>
+<li><p>Length of 18-24 bases (Specificity usually is dependent on the
+length and annealing temperature. The shorter the primers are, the more
+efficiently they will bind or anneal to the target.)</p></li>
+<li><p>40-60% G/C content (Be mindful not to have too many repeating G
+or C bases, as this can promote primer-dimer formation.)</p></li>
+<li><p>Start and end with 1-2 G/C pairs (This is known as a GC
+Clamp).</p></li>
+<li><p>Melting temperature (Tm) of 50-60°C (This can depend on your PCR
+buffer conditions and DNA polymerase as well).</p></li>
+<li><p>Primer pairs should have a Tm within 5°C of each other</p></li>
+<li><p>Primer pairs should not have complementary regions</p></li>
+</ul>
+<p>Question(s)</p>
+<p>How many of these guidelines does the AmpR primer pair meet?</p>
+<p>What is the expected size (in bp) of the PCR amplicon that would be
+generated when using these primers?</p>
+</div>
+<div id="finished" class="section level3">
+<h3>Finished</h3>
+<p>When you have finished these activities - drag and drop the pRB318
+plasmid into your notebook and write a brief summary of what you
+did.</p>
 </div>
 </div>
 </div>
