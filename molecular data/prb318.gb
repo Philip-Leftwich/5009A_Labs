@@ -30,11 +30,11 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#b7e6d7"
                      /ApEinfo_fwdcolor="#b7e6d7"
      misc_feature    3841..3860
-                     /label="AmpF"
+                     /label="AmpFwd_primer"
                      /ApEinfo_revcolor="#ffef86"
                      /ApEinfo_fwdcolor="#ffef86"
      misc_feature    complement(3993..4011)
-                     /label="AmpR"
+                     /label="AmpRev_primer"
                      /ApEinfo_revcolor="#faac61"
                      /ApEinfo_fwdcolor="#faac61"
      rep_origin      4403..5085
