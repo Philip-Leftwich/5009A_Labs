@@ -422,3 +422,166 @@ What is the expected size (in bp) of the PCR amplicon that would be generated wh
 
 When you have finished these activities - drag and drop the pRB318 plasmid into your notebook and write a brief summary of what you did. 
 
+# 6 Computer Lab - Session 3
+
+## Functional analysis of an E. coli DNA repair protein *rpoB*
+
+### Part 1
+
+Annotate the rifampicin Resistance (rifR) Binding Domains in E. coli *rpoB*
+Find the Specific Domains in Campbell et al. 2021:
+
+- Open the paper by Campbell et al. (2021) and locate the sections describing the three rifampicin resistance-associated regions in the *rpoB* gene.
+
+Identify the amino acid positions associated with each rifR binding domain. These positions represent parts of the RNA polymerase’s β-subunit that interact with rifampicin.
+Why we’re doing this: These domains are where mutations can confer rifampicin resistance. Understanding their exact locations allows us to analyze how these regions are conserved across species.
+
+- Import the *rpoB* gene by using the import from database function. Use the *E.coli* GCA_000798515 genome.
+
+- Annotate the rifR Domains:
+
+- Select the amino acid positions for each rifR domain based on the information from Campbell et al. (2021).
+
+Use Benchling’s annotation tool to mark each domain separately, labeling them “rifR Domain 1,” “rifR Domain 2,” and “rifR Domain 3.”
+
+Why we’re doing this: By annotating these domains, we can visually identify the specific regions in rpoB that are functionally important for rifampicin binding, making it easier to see if these areas are conserved when we compare sequences.
+
+- Create an alignment with our sequencing files and note where mutations appear to have occurred.
+
+### Part 2: Translate rpoB to Protein and Compare with Mycobacterium tuberculosis Using BLAST
+
+Translate the *rpoB* Sequence to Protein:
+
+- In Benchling, select the *rpoB* sequence and use the "Translate" function to get the protein sequence of the RNA polymerase β-subunit.
+
+- Copy this translated sequence and go to NCBI BLAST for Protein Comparison:
+
+- Open the NCBI BLAST website and select BLASTP (Protein BLAST).
+
+- Paste the *E. coli* RNA polymerase β-subunit sequence into the query box.
+
+For the database, choose model organisms and enter *Mycobacterium tuberculosis*  in the “Organism” field.
+
+> Why we’re doing this: Mycobacterium tuberculosis is the causative agent of tuberculosis, and rifampicin is a critical antibiotic used to treat it. Since M. tuberculosis has developed resistance to rifampicin through mutations in its own rpoB gene, comparing the conserved domains between E. coli and M. tuberculosis helps us understand if similar mechanisms might be at play across species.
+
+- Run the BLAST Search and Analyze the Results:
+
+Run the BLAST search and examine the alignment results. Focus on how well the annotated rifR domains align with M. tuberculosis rpoB.
+
+Check if these rifR domains from E. coli are conserved in M. tuberculosis, specifically by noting any sequence similarity within these regions.
+Why we’re doing this: By examining whether the rifR domains are conserved, we can infer that these regions are functionally significant across species. Conservation often suggests that the protein regions are crucial for survival or specific functions, like rifampicin binding. If M. tuberculosis shares similar regions, it could indicate that rifampicin acts on similar mechanisms in both bacteria.
+
+### Part 3: Presenting and Analyzing CFU Data for Resistant and Non-Resistant Bacterial Strains
+
+In this part of the exercise, we will focus on effectively presenting and analyzing colony-forming unit (CFU) data for bacterial strains that are either resistant or non-resistant to rifampicin. CFU data can vary widely, often spanning several orders of magnitude, so it’s essential to use the best visualization and statistical methods to understand these differences clearly. Let’s break down each step to ensure your analysis is both informative and scientifically robust.
+
+- Step 1: Visualizing CFU Data with Boxplots and Data Points
+
+A boxplot is an ideal choice for visualizing CFU data because it provides a clear picture of how the CFU counts are distributed within each group (resistant and non-resistant). Here’s how to set up your visualization:
+
+Create a Boxplot with Data Points:
+
+Plot the CFU data as a boxplot with individual data points overlaid. This way, you can see both the overall distribution and the specific values for each sample.
+
+Separate the data into the different bacterial strains and label the axes clearly.
+
+#### Why a Boxplot?
+
+A boxplot shows the median (the middle value), the interquartile range (where most of the data points lie), and any outliers (values that fall far from the rest).
+By adding individual data points, you can see the actual values for each sample, which provides a clearer understanding of the variability in each group.
+
+##### Using a Log Scale on the Y-Axis:
+
+CFU counts often vary widely, so applying a logarithmic scale (base 10) to the y-axis will compress large values and expand smaller values. This makes it easier to visually compare the data between resistant and non-resistant strains.
+
+
+- Step 2: Applying a Log Transformation for Statistical Analysis
+
+In order to analyze this data accurately, we’ll need to make sure it meets certain assumptions required for statistical tests, like the t-test or ANOVA. CFU data is often skewed, meaning it doesn’t follow a normal distribution, which can make standard statistical tests less reliable.
+
+Log Transform Your Data:
+
+Take the log (base 10) of each CFU value before performing any statistical analysis.
+
+For example, if your CFU value is 1000, the log-transformed value would be log₁₀(1000) = 3. 
+
+> Note, you cannot transform 0 therefore you may have to add a numerical constant (+1) to all data points. Make sure this is clearly noted.
+
+This transformation compresses the data’s range and reduces skewness, making it easier to detect significant differences between groups.
+
+Choose an Appropriate Statistical Test:
+
+After transforming the data, you can use standard statistical tests to compare CFU counts between resistant and non-resistant strains.
+
+
+- Step 3: Presenting Your Results and Interpreting the Findings
+
+Presenting Your Boxplot:
+
+Once your boxplot is complete and your y-axis is set to a log scale, you should be able to observe the distribution and variation within each group.
+Look closely at the medians, the range of values within each box, and any outliers, which can provide insights into how CFU counts differ between resistant and non-resistant strains.
+
+Interpreting Statistical Results:
+
+If you performed a t-test or ANOVA on the log-transformed data, interpret the results in context. A significant result would suggest that there’s a real difference in CFU counts between resistant and non-resistant strains.
+
+Think about what this difference might mean: For example, if resistant strains consistently show higher CFU counts, this could indicate an enhanced ability to grow in rifampicin’s presence.
+
+### Summarizing the Biological Implications:
+
+Consider why these results might matter in the context of rifampicin resistance. If specific mutations in the rifR domains affect CFU counts, this could indicate that these regions play a critical role in the bacteria’s ability to survive in the presence of rifampicin.
+Summarize any observed differences and what they suggest about the role of the rpoB gene in resistance and bacterial survival.
+
+
+### Part 4: Lab notebook tips
+
+#### 1. Organize with Clear Headers
+
+- Use Descriptive Section Headers: Divide your lab notes into distinct sections such as Introduction, Hypothesis, Materials and Methods, Results, Discussion, and Conclusions.
+
+- Subheadings for Clarity: Within each main section, use subheadings where appropriate (e.g., DNA Extraction Protocol, Gel Electrophoresis Analysis) to make it easy for readers to find specific parts of your procedure.
+
+#### 2. Provide Enough Detail and Context
+
+- Replicable Methods: Clearly indicate the protocols use and include relevant deviations or specifics not mentioned in the protocols, including quantities, equipment, and settings. For example, if you ran a PCR, specify the temperature cycles, enzyme used, and primer sequences.
+
+- Explain the Why: Briefly explain the purpose of each major step. This context helps readers understand the intent behind each part of the protocol, especially if they are unfamiliar with your study.
+
+> Example:
+“PCR was performed using the following cycling conditions to amplify the rpoB gene, targeting regions associated with rifampicin resistance…”
+
+#### 3. Summarize Results with Short Interpretations
+
+Brief Summaries in Results Sections: Each set of results should include a short interpretation of what the data suggests. Clearly state whether the results support or contradict the hypothesis.
+
+Consistent Layout: Each entry should follow a consistent layout: describe the data, interpret its significance, and relate it back to the hypothesis.
+
+>Example:
+“The colony-forming units for mutL and mutH strains transformed with pRB318 were higher than for mutS and wt strains transformed with prB318, supporting the hypothesis that mutS plays a functional role in reducing mutation rates.”
+
+#### 4. Present Gel Images with Clear Legends
+
+Unedited Images: Include original, unedited images of gels. Avoid cropping or enhancing the image to ensure the raw data is preserved.
+
+Clear Legends: Each gel image should have a concise legend that includes the sample ID, lane contents, and molecular weight marker (if used). State what the gel is intended to show and how it supports your findings.
+
+>Example:
+Figure 1: Gel Electrophoresis of colony PCR Products from pRB318.
+
+#### 5. Include Figures that Summarize Results
+
+Summarize Visually: Use graphs, boxplots, and summary figures to display your results clearly. For example, a boxplot comparing CFU counts for resistant versus non-resistant strains can make patterns easier to see.
+
+Caption Figures with Interpretations: Each figure should include a caption that not only describes what is shown but also briefly states what the data suggests in terms of your hypothesis.
+
+>Example:
+Figure 2: Boxplot of CFU Counts for Resistant and Non-Resistant Strains on Logarithmic Scale. Resistant strains show significantly higher CFU counts, supporting the hypothesis that rifR mutations confer growth advantages in antibiotic conditions.
+
+#### 6. Write a Brief Discussion or Conclusion
+
+Synthesize Findings: Summarize the main outcomes of your experiment and discuss whether your results support your initial hypothesis.
+
+Identify Limitations and Next Steps: If there were limitations or unexpected outcomes, mention these briefly. Suggest potential follow-up experiments to address these limitations.
+
+>Example:
+“While the CFU results support the hypothesis that rifR mutations increase survival in rifampicin conditions, further tests are needed to confirm whether specific mutations correlate with CFU variability.”
