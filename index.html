@@ -1184,6 +1184,8 @@ Notebook</a></li>
 <li><a href="#lab-notebook-checklist" id="toc-lab-notebook-checklist">3.
 Lab Notebook Checklist</a></li>
 <li><a href="#computer-lab---session-1" id="toc-computer-lab---session-1">4. Computer Lab - Session 1</a></li>
+<li><a href="#computer-lab-2" id="toc-computer-lab-2">5. Computer Lab
+2</a></li>
 </ul>
 </div>
 </nav>
@@ -1865,6 +1867,192 @@ buffer conditions and DNA polymerase as well).</p></li>
 <p>How many of these guidelines does the AmpR primer pair meet?</p>
 <p>What is the expected size (in bp) of the PCR amplicon that would be
 generated when using these primers?</p>
+</div>
+</div>
+<div id="computer-lab-2" class="section level1">
+<h1>5. Computer Lab 2</h1>
+<div id="annotating-the-prb318-plasmid" class="section level2">
+<h2>1. Annotating the pRB318 plasmid</h2>
+<p>This worksheet teaches you how to use Benchling to view and
+understand sequence annotations. With sequence annotation, we can mark
+out important regions in DNA sequences, such as mutations, cut sites,
+coding regions, transcription factor binding sites or primer binding
+sites. Benchling generates a graphical map of your annotated sequences
+as you go, giving you an organized overview of the important parts of
+DNA in your sequence</p>
+<p>Annotation is simple and just requires a foundation on the types of
+DNA features that you might wish to label on your sequences. In this
+module, you will learn what some general features are such as promoters,
+mutations, primer binding sites or coding regions</p>
+<p>Copy the <a href="https://github.com/Philip-Leftwich/5009A_Labs/blob/master/molecular%20data/prb318.gb">pRB318
+plasmid</a> into your own Project on Benchling so you can edit as you
+please. Afterwards, navigate to your Vector sequence and you will see
+there are three different ways to view this sequence:</p>
+<ul>
+<li><p>Sequence map</p></li>
+<li><p>Linear map</p></li>
+<li><p>Plasmid map</p></li>
+</ul>
+<p>All three views have annotation features, only the sequence map shows
+the actual nucleotide sequence, the linear map shows the plasmid as
+though it is a linear sequence, while the plasmid map shows the plasmid
+in its native circular form.</p>
+<p><a href="https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247" class="uri">https://www.loom.com/share/4f9d040c879642f7bd16558ffa89e247</a></p>
+<p>There is no correct way to view this sequence, and you may find you
+have a particular preference, or that the method of viewing your
+sequence will be highly dependent on your experimental purpose.</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="66%" />
+</colgroup>
+<thead>
+<tr>
+<th>Annotation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E.coli mutS</td>
+<td>The full length <em>mutS</em> gene from E.coli</td>
+</tr>
+<tr>
+<td>trc promoter</td>
+<td>Strong promoter to drive gene of interest</td>
+</tr>
+<tr>
+<td>mutS CDS</td>
+<td>The section of the gene which is translated into protein (coding
+domain sequence) - begins at start and ends at stop codon</td>
+</tr>
+<tr>
+<td>AmpR CDS</td>
+<td>The coding domain sequence for the Ampicillin Resistance Gene - used
+as the selection marker for transformation</td>
+</tr>
+<tr>
+<td>ColE1 Origin</td>
+<td>Origin of replication - Plasmids carrying this origin exist in high
+copy numbers in E. coli.</td>
+</tr>
+<tr>
+<td>rrnB terminator</td>
+<td>Signal sequence to terminate the transcript made from the gene of
+interest, preventing run-on transcription.</td>
+</tr>
+<tr>
+<td>lacI</td>
+<td>Represses transcription of gene of interest in the presnence of
+lactose</td>
+</tr>
+</tbody>
+</table>
+<p>You can scroll through the map, or if you click on the “Annotations”
+button you will find a list of all the annotated features, their
+Location, Length of feature and the color of the annotation. Here you
+can toggle visibility of each feature on/off or edit each annotation
+manually.</p>
+<p><strong>Question</strong> - What are the “Locations” (range in the
+sequence) and Lengths (number of base pairs) for the following?</p>
+<ul>
+<li><p>AmpR CDS</p></li>
+<li><p>rrnB Terminator</p></li>
+<li><p>mutS CDS</p></li>
+</ul>
+<p><strong>Task</strong> The AmpR promoter is supposed to be annotated
+at bp 3356-3447. Can you add it?</p>
+<div id="translation-of-muts" class="section level3">
+<h3>Translation of mutS</h3>
+<p>Toggle on/off different viewing features through the ⚙️ icon like
+“ORFs” or “Amino Acid Indices” which make it easier to find relevant
+information.</p>
+<p>Click on the mutS CDS starting point at the beginning of the mutS
+gene to highlight the related sequence information.</p>
+<p>Hover over the DNA sequence and right click to bring up a menu and
+select “Create Translation”.</p>
+<p>Observe that this now creates a translation reading frame on top of
+the DNA sequence.</p>
+<p><a href="https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3" class="uri">https://www.loom.com/share/1569540790764f1aa1eafd0d12387399?sid=57a5fe71-26be-4977-9f6d-b8094c6a40c3</a></p>
+</div>
+</div>
+<div id="analysing-colony-count-data" class="section level2">
+<h2>2. Analysing Colony Count Data</h2>
+<p>Visualize and analyze colony forming unit (CFU) data, thinking
+critically about data distributions and statistical choices.</p>
+<div id="step-1-explore-the-data" class="section level3">
+<h3>Step 1: Explore the Data</h3>
+<div id="stop-and-think" class="section level4">
+<h4>Stop and Think:</h4>
+<ul>
+<li><p>Look at the CFU counts for each condition.</p></li>
+<li><p>Questions to consider:</p>
+<p>Are the values all similar, or do some stand out?</p>
+<p>Do you notice any extreme values or patterns?</p></li>
+<li><p>Calculate simple summaries (median, range).</p></li>
+</ul>
+</div>
+</div>
+<div id="step-2-visualize-the-data" class="section level3">
+<h3>Step 2: Visualize the Data</h3>
+<div id="stop-and-think-1" class="section level4">
+<h4>Stop and Think:</h4>
+<ul>
+<li><p>Which type of graph might reveal differences between
+conditions?</p></li>
+<li><p>Would plotting raw CFU counts show patterns clearly?</p></li>
+<li><p>If the counts vary a lot, how could you adjust the scale to make
+differences more visible?</p></li>
+<li><p>Options to explore:</p>
+<p>Scatter plot, boxplot, bar chart, violin plot, etc.</p>
+<p>Linear scale vs. log scale.</p>
+<p>Overlay individual data points on summary plots.</p></li>
+<li><p>Do this in Excel, R, SPSS or whichever software you
+choose</p></li>
+</ul>
+</div>
+</div>
+<div id="step-3-consider-data-transformation" class="section level3">
+<h3>Step 3: Consider Data Transformation</h3>
+<div id="stop-and-think-2" class="section level4">
+<h4>Stop and Think:</h4>
+<ul>
+<li><p>Does your data distribution suggest that a transformation might
+help?</p></li>
+<li><p>Which transformations could make differences easier to
+detect?</p></li>
+<li><p>How might a log transformation affect how you interpret the
+results?</p></li>
+<li><p>Options to explore:</p>
+<pre><code>Log transformation
+
+Rank transformation
+
+No transformation</code></pre></li>
+</ul>
+</div>
+</div>
+<div id="step-4-choose-an-analysis" class="section level3">
+<h3>Step 4: Choose an Analysis</h3>
+<div id="stop-and-think-3" class="section level4">
+<h4>Stop and Think:</h4>
+<ul>
+<li><p>Are the assumptions of standard tests (like t-tests or ANOVA)
+met?</p></li>
+<li><p>What features of the data might suggest a non-parametric or
+rank-based test?</p></li>
+<li><p>How will your choice of graph affect how you communicate your
+analysis?</p></li>
+<li><p>Options to explore:</p>
+<p>Parametric test (t-test, ANOVA)</p>
+<p>Non-parametric test (Mann-Whitney, Kruskal-Wallis)</p>
+<p>Comparing medians or ranks instead of means</p></li>
+</ul>
+</div>
+</div>
+<div id="step-5-put-your-analysis-and-figure-into-your-eln" class="section level3">
+<h3>Step 5: Put your Analysis and Figure into your ELN</h3>
+</div>
 </div>
 </div>
 </div>
