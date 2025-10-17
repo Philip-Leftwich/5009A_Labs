@@ -367,7 +367,11 @@ What is the expected size (in bp) of the PCR amplicon that would be generated wh
 
 # 5. Computer Lab 2
 
+## Hypothesis
 
+```{r, echo = FALSE}
+knitr::include_graphics("img/BIO-5009A 2025 Investigating gene function-2.png")
+```
 ## 1. Annotating the pRB318 plasmid
 
 This worksheet teaches you how to use Benchling to view and understand sequence annotations. With sequence annotation, we can mark out important regions in DNA sequences, such as mutations, cut sites, coding regions, transcription factor binding sites or primer binding sites. Benchling generates a graphical map of your annotated sequences as you go, giving you an organized overview of the important parts of DNA in your sequence
