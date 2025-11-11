@@ -1186,6 +1186,8 @@ Lab Notebook Checklist</a></li>
 <li><a href="#computer-lab---session-1" id="toc-computer-lab---session-1">4. Computer Lab - Session 1</a></li>
 <li><a href="#computer-lab-2" id="toc-computer-lab-2">5. Computer Lab
 2</a></li>
+<li><a href="#computer-lab-3." id="toc-computer-lab-3.">6. Computer Lab
+3.</a></li>
 </ul>
 </div>
 </nav>
@@ -2054,6 +2056,114 @@ analysis?</p></li>
 </div>
 <div id="step-5-put-your-analysis-and-figure-into-your-eln" class="section level3">
 <h3>Step 5: Put your Analysis and Figure into your ELN</h3>
+</div>
+</div>
+</div>
+<div id="computer-lab-3." class="section level1">
+<h1>6. Computer Lab 3.</h1>
+<div id="functional-analysis-of-an-e.-coli-dna-repair-protein-rpob" class="section level2">
+<h2>Functional analysis of an E. coli DNA repair protein
+<em>rpoB</em></h2>
+<div id="part-1" class="section level3">
+<h3>Part 1</h3>
+<p>Annotate the rifampicin Resistance (rifR) Binding Domains in E. coli
+<em>rpoB</em> Find the Specific Domains in Campbell et al. 2021:</p>
+<ul>
+<li>Open the paper by Campbell et al. (2021) and locate the sections
+describing the three rifampicin resistance-associated regions in the
+<em>rpoB</em> gene.</li>
+</ul>
+<p>Identify the amino acid positions associated with each rifR binding
+domain. These positions represent parts of the RNA polymerase’s
+β-subunit that interact with rifampicin.</p>
+<p>Why we’re doing this: These domains are where mutations can confer
+rifampicin resistance. Understanding their exact locations allows us to
+analyze how these regions are conserved across species.</p>
+<ul>
+<li><p>Import the <em>rpoB</em> gene by using the import from database
+function. Use the <em>E.coli</em> GCA_000798515 genome.</p></li>
+<li><p>Annotate the 3 rifR Domains:</p></li>
+<li><p>Select the amino acid positions for each rifR domain based on the
+information from Campbell et al. (2021).</p></li>
+</ul>
+<p>Use Benchling’s annotation tool to mark each domain separately,
+labeling them “rifR Domain 1,” “rifR Domain 2,” and “rifR Domain 3.”</p>
+<p>Why we’re doing this: By annotating these domains, we can visually
+identify the specific regions in rpoB that are functionally important
+for rifampicin binding, making it easier to see if these areas are
+conserved when we compare sequences.</p>
+<ul>
+<li>Create an alignment with our sequencing files (upload zip file as
+single document) and note where mutations appear to have occurred.</li>
+</ul>
+</div>
+<div id="part-2" class="section level3">
+<h3>Part 2</h3>
+<ul>
+<li>Create a table for each mutation - noting where it is, what change
+has been made and how many mutants it is found in</li>
+</ul>
+<table style="width:100%;">
+<colgroup>
+<col width="11%" />
+<col width="12%" />
+<col width="12%" />
+<col width="14%" />
+<col width="14%" />
+<col width="15%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr>
+<th>Mutants</th>
+<th>Position</th>
+<th>WT Codon</th>
+<th>Mut Codon</th>
+<th>AA Change</th>
+<th>In RRDR?</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clone 1,5,10</td>
+<td>513</td>
+<td>GAC</td>
+<td>GTC</td>
+<td>D→V</td>
+<td>No</td>
+<td>clear peak</td>
+</tr>
+<tr>
+<td>Clone 3,7,9</td>
+<td>530</td>
+<td>CAC</td>
+<td>TAC</td>
+<td>H→Y</td>
+<td>Cluster I</td>
+<td>double peaks</td>
+</tr>
+<tr>
+<td>Clone 5,14,17</td>
+<td>565</td>
+<td>CGC</td>
+<td>CAC</td>
+<td>R→H</td>
+<td>Cluster II</td>
+<td>clean</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>How many of the observed mutations occur in the RRDRs?</p></li>
+<li><p>How many mutations are silent / produce an AA change</p></li>
+<li><p>Does this align with the RRDRs?</p></li>
+</ul>
+<blockquote>
+<p>Trim or ignore clusters of mutations that occur at the start and end
+of sequencing files - sequence read quality is often reduced at the
+start and end of sequences - use the chromatogram peaks to help you.</p>
+</blockquote>
 </div>
 </div>
 </div>

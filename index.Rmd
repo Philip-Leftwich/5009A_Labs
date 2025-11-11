@@ -507,3 +507,55 @@ Visualize and analyze colony forming unit (CFU) data, thinking critically about 
 ### Step 5: Put your Analysis and Figure into your ELN
 
 
+# 6. Computer Lab 3.
+
+
+## Functional analysis of an E. coli DNA repair protein *rpoB*
+
+### Part 1
+
+Annotate the rifampicin Resistance (rifR) Binding Domains in E. coli *rpoB*
+Find the Specific Domains in Campbell et al. 2021:
+
+- Open the paper by Campbell et al. (2021) and locate the sections describing the three rifampicin resistance-associated regions in the *rpoB* gene.
+
+Identify the amino acid positions associated with each rifR binding domain. These positions represent parts of the RNA polymerase’s β-subunit that interact with rifampicin.
+
+Why we’re doing this: These domains are where mutations can confer rifampicin resistance. Understanding their exact locations allows us to analyze how these regions are conserved across species.
+
+- Import the *rpoB* gene by using the import from database function. Use the *E.coli* GCA_000798515 genome.
+
+- Annotate the 3 rifR Domains:
+
+- Select the amino acid positions for each rifR domain based on the information from Campbell et al. (2021).
+
+Use Benchling’s annotation tool to mark each domain separately, labeling them “rifR Domain 1,” “rifR Domain 2,” and “rifR Domain 3.”
+
+Why we’re doing this: By annotating these domains, we can visually identify the specific regions in rpoB that are functionally important for rifampicin binding, making it easier to see if these areas are conserved when we compare sequences.
+
+- Create an alignment with our sequencing files (upload zip file as single document) and note where mutations appear to have occurred.
+
+### Part 2
+
+- Create a table for each mutation - noting where it is, what change has been made and how many mutants it is found in
+
+
+| Mutants  | Position | WT Codon | Mut Codon | AA Change | In RRDR?   | Comments     |
+| ------- | -------- | -------- | --------- | --------- | ---------- | ------------ |
+| Clone 1,5,10 | 513      | GAC      | GTC       | D→V       | No      | clear peak   |
+| Clone 3,7,9 | 530      | CAC      | TAC       | H→Y       | Cluster I       | double peaks |
+| Clone 5,14,17 | 565      | CGC      | CAC       | R→H       | Cluster II | clean        |
+
+- How many of the observed mutations occur in the RRDRs? 
+
+- How many mutations are silent / produce an AA change
+
+- Does this align with the RRDRs?
+
+> Trim or ignore clusters of mutations that occur at the start and end of sequencing files - sequence read quality is often reduced at the start and end of sequences - use the chromatogram peaks to help you. 
+
+
+
+
+
+
